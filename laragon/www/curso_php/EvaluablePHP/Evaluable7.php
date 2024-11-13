@@ -43,6 +43,7 @@
         foreach ($libros as $clave=>$libro){
             if ($libro["id"]==$id){
                 $libros[$clave]["stock"]=$stock;
+                return;
             }
         }
         return $libros;
