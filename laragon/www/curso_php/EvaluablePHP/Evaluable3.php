@@ -21,7 +21,7 @@
             }
             else{
                 foreach ($tareas as $tarea){
-                echo " - ".$tarea."";
+                    echo " - ".$tarea."";
                 }
             }
         }
