@@ -14,23 +14,24 @@
     function eliminar($productos, $id){
         foreach($productos as $key=>$producto){
             if ($producto["id"]==$id){
-                unset($producto[$key]);
-                echo "Producto eliminado correctamente";
-                return $producto;
+                unset($productos[$key]);
+                echo "Producto eliminado correctamente <br>";
+                return $productos;
             }
         }
         echo "Producto no encontrado";
+        return $productos;
     }
 
     function buscar($productos, $id){
         foreach($productos as $key=>$producto){
             if ($producto["id"]==$id){
                 echo "Producto Encontrado:<br>".
-                    "ID: ".$producto['id'].
-                    "Nombre: ".$producto["nombre"].
-                    "Cantidad: ".$producto["cantidad"].
-                    "Precio: ".$producto["precio"];
-                return $producto;
+                    "<br>ID: ".$producto['id'].
+                    "<br>Nombre: ".$producto["nombre"].
+                    "<br>Cantidad: ".$producto["cantidad"].
+                    "<br>Precio: ".$producto["precio"].
+                    "<br><br>";
             }
         }
     }
@@ -40,36 +41,38 @@
             echo "ID: ".$producto['id'].
                 "<br>Nombre: ".$producto["nombre"].
                 "<br>Cantidad: ".$producto["cantidad"].
-                "<br>Precio: ".$producto["precio"];
+                "<br>Precio: ".$producto["precio"].
+                "<br><br>";
         }
-        echo "<br>";
     }
 
     function calcularTotal($productos){
-        $total=0;
+        $cantidadTotal=0;
         foreach($productos as $producto){
-            $total+=$producto["cantidad"];
+            $cantidadTotal+=$producto["cantidad"];
         }
-        echo "La cantidad Total de Productos es: ".$total;
+        echo "La cantidad Total de Productos es: ".$cantidadTotal."<br>";
     }
 
     function promedio($productos){
         $media=0;
+        $total=0;
+        $tamaño=count($productos);
         foreach($productos as $producto){
-            $total+=$producto["precio"]*$producto["cantidad"];
+            $total+=$producto["precio"];
         }
-        $media=$total/count($productos[]);
+        $media=$total/$tamaño;
 
-        echo "La el precio medio de los productos es: ".$media;
+        echo "La el precio medio de los productos es: ".$media."<br>";
     }
 
-    agregar($productos, 1, "portatil", 4, 300);
-    agregar($productos, 2, "telefono", 4, 200);
-    agregar($productos, 3, "tablet", 4, 150);
+    $productos=agregar($productos, 1, "portatil", 1, 300);
+    $productos=agregar($productos, 2, "telefono", 0, 200);
+    $productos=agregar($productos, 3, "tablet", 1, 150);
     
     listar($productos);
 
-    eliminar($productos, 2);
+    $productos=eliminar($productos, 2);
 
     listar($productos);
 
@@ -78,3 +81,4 @@
     calcularTotal($productos);
 
     promedio($productos);
+
