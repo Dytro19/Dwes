@@ -2622,3 +2622,6 @@
 ::1 - - [19/Nov/2024:11:05:53 +0100] "GET /curso_php/Examen_Alvaro_Gomez/Ej2/Estudiantes.php HTTP/1.1" 200 1355
 ::1 - - [19/Nov/2024:11:06:13 +0100] "GET /curso_php/Examen_Alvaro_Gomez/Ej2/Estudiantes.php HTTP/1.1" 200 830
 ::1 - - [19/Nov/2024:11:07:13 +0100] "-" 408 -
+::1 - - [21/Nov/2024:08:49:54 +0100] "GET /curso_php/Examen_Alvaro_Gomez/Ej3/Biblioteca.php HTTP/1.1" 200 783
+::1 - - [21/Nov/2024:08:50:54 +0100] "-" 408 -
+::1 - - [21/Nov/2024:08:59:07 +0100] "GET /curso_php/Examen_Alvaro_Gomez/Ej2/Estudiantes.php HTTP/1.1" 200 830
