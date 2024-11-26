@@ -77,7 +77,7 @@
     mostrarDatos($estudiantes);
     //promedioNotas($estudiantes, 001);
 
-    $estudiantes=eliminar($estudiantes, 002);
+    eliminar($estudiantes, 002);
 
     mostrarDatos($estudiantes);
 
