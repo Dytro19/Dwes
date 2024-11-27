@@ -42,4 +42,21 @@
         function getSaldo(){
             return $this->saldo;
         }
+
+        function retirarSaldo($saldo){
+            if ($this->saldo>=$saldo){
+                $this->saldo-=$saldo;
+                echo "Saldo actualizado <br>";
+            }else{
+                echo "No dispones del saldo necesario para realizar esta operacion <br>";
+            }
+        }
+    }
+
+    class Carrito{
+        public $libros=[];
+
+        function agregarLibro(Libro $libro){
+            
+        }
     }
