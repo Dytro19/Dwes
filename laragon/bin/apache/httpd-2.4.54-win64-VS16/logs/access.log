@@ -2711,3 +2711,39 @@
 ::1 - - [28/Nov/2024:18:15:26 +0100] "GET /curso_php/Mas_ejercicios/Ej3.php HTTP/1.1" 200 1112
 ::1 - - [28/Nov/2024:18:15:26 +0100] "GET /curso_php/Mas_ejercicios/Ej3.php HTTP/1.1" 200 1112
 ::1 - - [28/Nov/2024:18:16:25 +0100] "-" 408 -
+::1 - - [03/Dec/2024:08:44:28 +0100] "GET / HTTP/1.1" 200 207
+::1 - - [03/Dec/2024:08:44:31 +0100] "GET /curso_php/ HTTP/1.1" 200 10
+::1 - - [03/Dec/2024:08:44:52 +0100] "GET /curso_php/Mas_Ejercicios/Ej4.php HTTP/1.1" 200 -
+::1 - - [03/Dec/2024:08:45:03 +0100] "GET /curso_php/Mas_Ejercicios/Ej4.php HTTP/1.1" 200 -
+::1 - - [03/Dec/2024:08:46:03 +0100] "-" 408 -
+::1 - - [03/Dec/2024:08:55:55 +0100] "GET /curso_php/Mas_Ejercicios/Ej4.php HTTP/1.1" 200 95
+::1 - - [03/Dec/2024:08:56:55 +0100] "-" 408 -
+::1 - - [03/Dec/2024:08:57:29 +0100] "GET /curso_php/Mas_Ejercicios/Ej4.php HTTP/1.1" 200 192
+::1 - - [03/Dec/2024:08:58:29 +0100] "-" 408 -
+::1 - - [03/Dec/2024:09:01:22 +0100] "GET /curso_php/Mas_Ejercicios/Ej5.php HTTP/1.1" 200 -
+::1 - - [03/Dec/2024:09:02:22 +0100] "-" 408 -
+::1 - - [03/Dec/2024:09:30:34 +0100] "GET /curso_php/Mas_Ejercicios/Ej5.php HTTP/1.1" 200 389
+::1 - - [03/Dec/2024:09:31:34 +0100] "-" 408 -
+::1 - - [03/Dec/2024:09:32:28 +0100] "GET /curso_php/Mas_Ejercicios/Ej5.php HTTP/1.1" 200 407
+::1 - - [03/Dec/2024:09:32:48 +0100] "GET /curso_php/Mas_Ejercicios/Ej5.php HTTP/1.1" 200 411
+::1 - - [03/Dec/2024:09:33:48 +0100] "-" 408 -
+::1 - - [03/Dec/2024:10:41:23 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 294
+::1 - - [03/Dec/2024:10:42:03 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 302
+::1 - - [03/Dec/2024:10:42:43 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:42:44 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:42:44 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:42:45 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:42:58 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:42:58 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:42:59 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:00 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:04 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:05 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:07 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:08 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:08 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:09 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:09 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:10 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:11 +0100] "GET /curso_php/Mas_Ejercicios/Ej6.php HTTP/1.1" 200 300
+::1 - - [03/Dec/2024:10:43:58 +0100] "-" 408 -
