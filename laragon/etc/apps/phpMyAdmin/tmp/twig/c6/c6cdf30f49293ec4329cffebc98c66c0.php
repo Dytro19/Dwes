@@ -77,6 +77,6 @@ echo _gettext("Close");
 
     public function getSourceContext()
     {
-        return new Source("", "modals/unhide_nav_item.twig", "C:\\laragon\\etc\\apps\\phpMyAdmin\\templates\\modals\\unhide_nav_item.twig");
+        return new Source("", "modals/unhide_nav_item.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\modals\\unhide_nav_item.twig");
     }
 }

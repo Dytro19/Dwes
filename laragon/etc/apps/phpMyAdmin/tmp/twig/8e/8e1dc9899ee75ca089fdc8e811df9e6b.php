@@ -178,6 +178,6 @@ echo _gettext("Git information missing!");
 
     public function getSourceContext()
     {
-        return new Source("", "footer.twig", "C:\\laragon\\etc\\apps\\phpMyAdmin\\templates\\footer.twig");
+        return new Source("", "footer.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\footer.twig");
     }
 }
