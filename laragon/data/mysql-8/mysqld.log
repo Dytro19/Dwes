@@ -966,3 +966,18 @@ information that should help you find out what is causing the crash.
 2024-12-11T12:01:09.868430Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_shipping_zone_methods` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
 2024-12-11T12:01:09.870938Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_tax_rates` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
 2024-12-11T12:01:09.872961Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_tax_rate_locations` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-12T11:55:42.219409Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-12-12T11:55:42.219527Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-12-12T11:55:42.219596Z 0 [System] [MY-010116] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 16532
+2024-12-12T11:55:42.371250Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-12-12T11:55:44.865133Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-12-12T11:55:46.014161Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-12-12T11:55:46.026862Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-12-12T11:55:46.104141Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2024-12-12T11:55:46.309408Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-12-12T11:55:46.310231Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-12-12T11:55:46.410742Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-12-12T11:55:46.411109Z 0 [System] [MY-010931] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-12-12T13:20:08.759862Z 45 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
+2024-12-12T13:20:08.761109Z 0 [System] [MY-013105] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
+2024-12-12T13:20:09.587717Z 0 [System] [MY-010910] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.

@@ -577,3 +577,12 @@ Apache server interrupted...
 [Wed Dec 11 13:32:33.934040 2024] [core:error] [pid 16016:tid 1160] [client ::1:53066] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://localhost/wordpress/tiendaonline/wp-admin/themes.php?page=starter-templates&ci=3&s=shop
 [Wed Dec 11 13:32:33.935039 2024] [core:error] [pid 16016:tid 1216] [client ::1:53068] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://localhost/wordpress/tiendaonline/wp-admin/themes.php?page=starter-templates&ci=3&s=shop
 [Wed Dec 11 13:32:33.936040 2024] [core:error] [pid 16016:tid 1168] [client ::1:53067] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://localhost/wordpress/tiendaonline/wp-admin/themes.php?page=starter-templates&ci=3&s=shop
+[Thu Dec 12 12:55:43.935740 2024] [core:warn] [pid 9608:tid 352] AH00098: pid file C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Dec 12 12:55:44.620769 2024] [mpm_winnt:notice] [pid 9608:tid 352] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 configured -- resuming normal operations
+[Thu Dec 12 12:55:44.620769 2024] [mpm_winnt:notice] [pid 9608:tid 352] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Dec 12 12:55:44.620769 2024] [core:notice] [pid 9608:tid 352] AH00094: Command line: 'C:\\Repositorios\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
+[Thu Dec 12 12:55:44.637035 2024] [mpm_winnt:notice] [pid 9608:tid 352] AH00418: Parent: Created child process 17556
+Apache server interrupted...
+024] [mpm_winnt:notice] [pid 17556:tid 400] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 12 14:20:10.340120 2024] [mpm_winnt:notice] [pid 9608:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 12 14:20:12.348524 2024] [mpm_winnt:notice] [pid 17556:tid 400] AH00364: Child: All worker threads have exited.

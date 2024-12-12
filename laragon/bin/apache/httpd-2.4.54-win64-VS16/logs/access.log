@@ -5737,3 +5737,90 @@
 ::1 - - [11/Dec/2024:14:18:22 +0100] "POST /wordpress/tiendaonline/wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [11/Dec/2024:14:19:22 +0100] "POST /wordpress/tiendaonline/wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [11/Dec/2024:14:20:22 +0100] "POST /wordpress/tiendaonline/wp-admin/admin-ajax.php HTTP/1.1" 200 47
+::1 - - [12/Dec/2024:12:56:49 +0100] "GET /inventario/ HTTP/1.1" 200 320
+::1 - - [12/Dec/2024:12:56:49 +0100] "GET /inventario/css/estilos.css HTTP/1.1" 304 -
+::1 - - [12/Dec/2024:12:57:49 +0100] "-" 408 -
+::1 - - [12/Dec/2024:12:58:24 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3198
+::1 - - [12/Dec/2024:12:58:24 +0100] "GET /inventario/js/ajax.js HTTP/1.1" 304 -
+::1 - - [12/Dec/2024:12:58:24 +0100] "GET /inventario/img/logo.png HTTP/1.1" 304 -
+::1 - - [12/Dec/2024:13:05:03 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [12/Dec/2024:13:05:23 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [12/Dec/2024:13:05:24 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [12/Dec/2024:13:05:24 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [12/Dec/2024:13:05:24 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [12/Dec/2024:13:06:23 +0100] "-" 408 -
+::1 - - [12/Dec/2024:13:08:56 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [12/Dec/2024:13:09:03 +0100] "GET /inventario HTTP/1.1" 301 236
+::1 - - [12/Dec/2024:13:09:03 +0100] "GET /inventario/ HTTP/1.1" 200 1128
+::1 - - [12/Dec/2024:13:09:40 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:10:40 +0100] "-" 408 -
+::1 - - [12/Dec/2024:13:12:49 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:13:49 +0100] "-" 408 -
+::1 - - [12/Dec/2024:13:15:11 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:11 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:11 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:11 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:11 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:13 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:13 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:13 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:15:13 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:16:11 +0100] "-" 408 -
+::1 - - [12/Dec/2024:13:17:11 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:17:11 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:17:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:17:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:17:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:17:12 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:17:21 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [12/Dec/2024:13:17:21 +0100] "GET /inventario/css/estilos.css HTTP/1.1" 200 298
+::1 - - [12/Dec/2024:13:17:21 +0100] "GET /inventario/css/bulma.min.css HTTP/1.1" 200 677242
+::1 - - [12/Dec/2024:13:17:21 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [12/Dec/2024:13:27:33 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 4575
+::1 - - [12/Dec/2024:13:27:38 +0100] "GET /phpmyadmin/js/messages.php?l=es&v=5.2.1 HTTP/1.1" 200 8971
+::1 - - [12/Dec/2024:13:27:49 +0100] "POST /phpmyadmin/index.php?route=/ HTTP/1.1" 302 20
+::1 - - [12/Dec/2024:13:27:49 +0100] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 17990
+::1 - - [12/Dec/2024:13:27:50 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2351
+::1 - - [12/Dec/2024:13:27:50 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1549
+::1 - - [12/Dec/2024:13:27:50 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1641
+::1 - - [12/Dec/2024:13:27:50 +0100] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [12/Dec/2024:13:27:50 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1540
+::1 - - [12/Dec/2024:13:34:52 +0100] "GET /inventario/php HTTP/1.1" 301 240
+::1 - - [12/Dec/2024:13:34:52 +0100] "GET /inventario/php/ HTTP/1.1" 200 285
+::1 - - [12/Dec/2024:13:34:55 +0100] "GET /inventario/php/main.php HTTP/1.1" 200 -
+::1 - - [12/Dec/2024:13:35:52 +0100] "-" 408 -
+::1 - - [12/Dec/2024:13:38:19 +0100] "GET /inventario/php/main.php HTTP/1.1" 200 -
+::1 - - [12/Dec/2024:13:39:19 +0100] "-" 408 -
+::1 - - [12/Dec/2024:13:41:14 +0100] "GET /phpmyadmin/index.php?route=/database/structure&db=inventario&ajax_request=true&ajax_page_request=true&_nocache=1734007274334776070&token=30292b574a7660534d793e2f7b426c69 HTTP/1.1" 200 6126
+::1 - - [12/Dec/2024:13:41:14 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2023
+::1 - - [12/Dec/2024:13:41:15 +0100] "GET /phpmyadmin/index.php?route=/sql&db=inventario&table=categoria&pos=0&ajax_request=true&ajax_page_request=true&_nocache=1734007275950313264&token=30292b574a7660534d793e2f7b426c69 HTTP/1.1" 200 5621
+::1 - - [12/Dec/2024:13:41:17 +0100] "GET /phpmyadmin/themes/pmahomme/img/b_tblexport.png HTTP/1.1" 200 514
+::1 - - [12/Dec/2024:13:41:17 +0100] "GET /phpmyadmin/themes/pmahomme/img/b_tblimport.png HTTP/1.1" 200 556
+::1 - - [12/Dec/2024:13:41:17 +0100] "GET /phpmyadmin/themes/pmahomme/img/b_view_add.png HTTP/1.1" 200 678
+::1 - - [12/Dec/2024:13:41:17 +0100] "GET /phpmyadmin/js/dist/multi_column_sort.js?v=5.2.1 HTTP/1.1" 200 1281
+::1 - - [12/Dec/2024:13:41:17 +0100] "GET /phpmyadmin/js/dist/gis_data_editor.js?v=5.2.1 HTTP/1.1" 200 13582
+::1 - - [12/Dec/2024:13:41:17 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1734007277213639287&token=30292b574a7660534d793e2f7b426c69 HTTP/1.1" 200 1601
+::1 - - [12/Dec/2024:13:44:52 +0100] "GET /inventario/php/main.php HTTP/1.1" 200 -
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/index.php?route=/sql&db=inventario&table=categoria&pos=0 HTTP/1.1" 200 16144
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/js/dist/sql.js?v=5.2.1 HTTP/1.1" 200 35541
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/themes/pmahomme/img/s_fulltext.png HTTP/1.1" 200 176
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/js/dist/makegrid.js?v=5.2.1 HTTP/1.1" 200 81012
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/themes/pmahomme/img/b_chart.png HTTP/1.1" 200 449
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/themes/pmahomme/img/col_pointer.png HTTP/1.1" 200 102
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/themes/pmahomme/img/col_drop.png HTTP/1.1" 200 111
+::1 - - [12/Dec/2024:13:44:55 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2708
+::1 - - [12/Dec/2024:13:44:55 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1642
+::1 - - [12/Dec/2024:13:44:55 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1551
+::1 - - [12/Dec/2024:13:44:55 +0100] "GET /phpmyadmin/index.php?route=/recent-table&ajax_request=1&recent_table=1&no_debug=true&_nocache=1734007495791494991&token=30292b574a7660534d793e2f7b426c69 HTTP/1.1" 200 1601
+::1 - - [12/Dec/2024:13:44:56 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1542
+::1 - - [12/Dec/2024:14:11:24 +0100] "GET /inventario/php/main.php HTTP/1.1" 200 -
+::1 - - [12/Dec/2024:14:11:24 +0100] "GET /inventario/php/main.php HTTP/1.1" 200 -
+::1 - - [12/Dec/2024:14:12:24 +0100] "-" 408 -
+::1 - - [12/Dec/2024:14:14:31 +0100] "GET /inventario/php/main.php HTTP/1.1" 200 22
+::1 - - [12/Dec/2024:14:15:31 +0100] "-" 408 -
