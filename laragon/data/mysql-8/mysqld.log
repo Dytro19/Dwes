@@ -550,3 +550,419 @@
 2024-12-11T09:14:14.115264Z 32 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
 2024-12-11T09:14:14.116540Z 0 [System] [MY-013105] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
 2024-12-11T09:14:15.336670Z 0 [System] [MY-010910] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
+2024-12-11T10:41:41.616497Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-12-11T10:41:41.617174Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-12-11T10:41:41.617216Z 0 [System] [MY-010116] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 14324
+2024-12-11T10:41:41.713678Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-12-11T10:41:42.062700Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-12-11T10:41:42.471298Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2024-12-11T10:41:42.511463Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-12-11T10:41:42.511910Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-12-11T10:41:42.561262Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-12-11T10:41:42.561379Z 0 [System] [MY-010931] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-12-11T10:43:01.394634Z 22 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
+2024-12-11T10:43:01.395494Z 0 [System] [MY-013105] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
+2024-12-11T10:43:02.360747Z 0 [System] [MY-010910] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
+2024-12-11T11:51:25.049153Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-12-11T11:51:25.050073Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-12-11T11:51:25.050116Z 0 [System] [MY-010116] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 9716
+2024-12-11T11:51:25.122126Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-12-11T11:51:25.462437Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-12-11T11:51:26.125211Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2024-12-11T11:51:26.152263Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-12-11T11:51:26.153161Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-12-11T11:51:26.245419Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-12-11T11:51:26.245693Z 0 [System] [MY-010931] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-12-11T12:00:16.350689Z 75 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
+2024-12-11T12:00:16.351739Z 0 [System] [MY-013105] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
+2024-12-11T12:00:17.361504Z 0 [System] [MY-010910] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
+2024-12-11T12:00:28.992614Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-12-11T12:00:28.992669Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-12-11T12:00:28.992702Z 0 [System] [MY-010116] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 11748
+2024-12-11T12:00:29.018883Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-12-11T12:00:29.927696Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-12-11T12:00:30.283029Z 0 [ERROR] [MY-012095] [InnoDB] [FATAL] Tablespace id is 338 in the data dictionary but in file .\wordpress\wp_term_relationships.ibd it is 29!
+2024-12-11T12:00:30.284011Z 0 [ERROR] [MY-013183] [InnoDB] Assertion failure: fil0fil.cc:2548:ib::fatal triggered thread 14232
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/8.0/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+12:00:30 UTC - mysqld got exception 0x16 ;
+Most likely, you have hit a bug, but this error can also be caused by malfunctioning hardware.
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+2024-12-11T12:00:30.301491Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2024-12-11T12:00:30.314347Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-12-11T12:00:30.314755Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-12-11T12:00:30.342287Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-12-11T12:00:30.342384Z 0 [System] [MY-010931] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+7ff73cbb0858    mysqld.exe!?my_print_stacktrace@@YAXPEBEK@Z()
+7ff73bd4e92b    mysqld.exe!?print_fatal_signal@@YAXH@Z()
+7ff73bd4e6f3    mysqld.exe!?my_server_abort@@YAXXZ()
+7ff73cb947fa    mysqld.exe!?my_abort@@YAXXZ()
+7ff73cddca99    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73ccb9643    mysqld.exe!??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z()
+7ff73cd06ec4    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73cd0e1e4    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73cd0f1d3    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73ccf893c    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73ccfcb1e    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73cf26954    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73cf2677e    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73ce56834    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73ce561e0    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff73cd7033d    mysqld.exe!?deallocate@?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z()
+7ff9926f4ea0    ucrtbase.dll!wcsrchr()
+7ff992c0e8d7    KERNEL32.DLL!BaseThreadInitThunk()
+7ff994e5fbcc    ntdll.dll!RtlUserThreadStart()
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2024-12-11T12:00:39.067909Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2024-12-11T12:00:39.067982Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-12-11T12:00:39.068016Z 0 [System] [MY-010116] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 16952
+2024-12-11T12:00:39.095976Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-12-11T12:00:39.982935Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-12-11T12:00:40.252046Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-12-11T12:00:40.255996Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-12-11T12:00:40.336137Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2024-12-11T12:00:40.339783Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-12-11T12:00:40.340188Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-12-11T12:00:40.367794Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-12-11T12:00:40.367880Z 0 [System] [MY-010931] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-12-11T12:00:40.391298Z 8 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_blogs` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.101665Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.102112Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_commentmeta.ibd' OS error: 71
+2024-12-11T12:01:09.102990Z 19 [Warning] [MY-012111] [InnoDB] Trying to access missing tablespace 384
+2024-12-11T12:01:09.103512Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_commentmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.106538Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.107042Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_comments.ibd' OS error: 71
+2024-12-11T12:01:09.107745Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_comments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.109979Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.110581Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_e_events.ibd' OS error: 71
+2024-12-11T12:01:09.111512Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_e_events` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.114152Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.114850Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_links.ibd' OS error: 71
+2024-12-11T12:01:09.115557Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_links` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.118146Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.118755Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_options.ibd' OS error: 71
+2024-12-11T12:01:09.119387Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_options` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.121772Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.122314Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_postmeta.ibd' OS error: 71
+2024-12-11T12:01:09.123015Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_postmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.125546Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.126108Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_posts.ibd' OS error: 71
+2024-12-11T12:01:09.126755Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_posts` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.128964Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.129586Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_term_relationships.ibd' OS error: 71
+2024-12-11T12:01:09.130553Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_term_relationships` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.133055Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.133487Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_term_taxonomy.ibd' OS error: 71
+2024-12-11T12:01:09.134220Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_term_taxonomy` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.136609Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.137339Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_termmeta.ibd' OS error: 71
+2024-12-11T12:01:09.138006Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_termmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.140138Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.140604Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_2_terms.ibd' OS error: 71
+2024-12-11T12:01:09.141214Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_terms` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.151446Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.151917Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_commentmeta.ibd' OS error: 71
+2024-12-11T12:01:09.152671Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_commentmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.155520Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.155946Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_comments.ibd' OS error: 71
+2024-12-11T12:01:09.156690Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_comments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.158969Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.159436Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_e_events.ibd' OS error: 71
+2024-12-11T12:01:09.160042Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_e_events` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.162168Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.162604Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_links.ibd' OS error: 71
+2024-12-11T12:01:09.163423Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_links` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.165825Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.166394Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_options.ibd' OS error: 71
+2024-12-11T12:01:09.167177Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_options` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.170615Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.171067Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_postmeta.ibd' OS error: 71
+2024-12-11T12:01:09.171706Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_postmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.174518Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.174942Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_posts.ibd' OS error: 71
+2024-12-11T12:01:09.175677Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_posts` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.177879Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.178313Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_term_relationships.ibd' OS error: 71
+2024-12-11T12:01:09.179086Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_term_relationships` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.181786Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.182248Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_term_taxonomy.ibd' OS error: 71
+2024-12-11T12:01:09.182910Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_term_taxonomy` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.185361Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.185886Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_termmeta.ibd' OS error: 71
+2024-12-11T12:01:09.186535Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_termmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.188788Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.189292Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_terms.ibd' OS error: 71
+2024-12-11T12:01:09.189970Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_terms` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.192821Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.193329Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_wpforms_logs.ibd' OS error: 71
+2024-12-11T12:01:09.193920Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_logs` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.196655Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.197153Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_wpforms_payment_meta.ibd' OS error: 71
+2024-12-11T12:01:09.197944Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_payment_meta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.200322Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.200761Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_wpforms_payments.ibd' OS error: 71
+2024-12-11T12:01:09.201920Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_payments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.204196Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.204739Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_3_wpforms_tasks_meta.ibd' OS error: 71
+2024-12-11T12:01:09.205815Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_tasks_meta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.219268Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.219795Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_actionscheduler_actions.ibd' OS error: 71
+2024-12-11T12:01:09.220634Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_actions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.223085Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.223623Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_actionscheduler_claims.ibd' OS error: 71
+2024-12-11T12:01:09.224500Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_claims` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.226752Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.227286Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_actionscheduler_groups.ibd' OS error: 71
+2024-12-11T12:01:09.227932Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_groups` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.230195Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.230755Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_actionscheduler_logs.ibd' OS error: 71
+2024-12-11T12:01:09.231688Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_logs` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.234114Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.234634Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_blogmeta.ibd' OS error: 71
+2024-12-11T12:01:09.235242Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_blogmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.236705Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_blogs` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.239188Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.239657Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_commentmeta.ibd' OS error: 71
+2024-12-11T12:01:09.240277Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_commentmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.242595Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.243083Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_comments.ibd' OS error: 71
+2024-12-11T12:01:09.243936Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_comments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.246137Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.246596Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_e_events.ibd' OS error: 71
+2024-12-11T12:01:09.247316Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_e_events` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.249800Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.250307Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_links.ibd' OS error: 71
+2024-12-11T12:01:09.250925Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_links` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.253160Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.253688Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_options.ibd' OS error: 71
+2024-12-11T12:01:09.254382Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_options` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.256658Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.257116Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_postmeta.ibd' OS error: 71
+2024-12-11T12:01:09.257929Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_postmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.260819Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.261247Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_posts.ibd' OS error: 71
+2024-12-11T12:01:09.261987Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_posts` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.264289Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.264969Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_registration_log.ibd' OS error: 71
+2024-12-11T12:01:09.265893Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_registration_log` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.269139Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.269791Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_signups.ibd' OS error: 71
+2024-12-11T12:01:09.270454Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_signups` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.272840Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.273343Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_site.ibd' OS error: 71
+2024-12-11T12:01:09.274104Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_site` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.276316Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.276860Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_sitemeta.ibd' OS error: 71
+2024-12-11T12:01:09.277574Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_sitemeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.279882Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.280303Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_term_relationships.ibd' OS error: 71
+2024-12-11T12:01:09.281024Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_term_relationships` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.283334Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.283857Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_term_taxonomy.ibd' OS error: 71
+2024-12-11T12:01:09.284736Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_term_taxonomy` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.287448Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.287871Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_termmeta.ibd' OS error: 71
+2024-12-11T12:01:09.288583Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_termmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.290958Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.291401Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_terms.ibd' OS error: 71
+2024-12-11T12:01:09.292148Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_terms` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.294329Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.294751Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_usermeta.ibd' OS error: 71
+2024-12-11T12:01:09.295453Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_usermeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.297813Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.298237Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_users.ibd' OS error: 71
+2024-12-11T12:01:09.298855Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_users` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.301242Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.301662Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_admin_note_actions.ibd' OS error: 71
+2024-12-11T12:01:09.302391Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_admin_note_actions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.304722Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.305146Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_admin_notes.ibd' OS error: 71
+2024-12-11T12:01:09.305982Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_admin_notes` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.308618Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.309354Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_category_lookup.ibd' OS error: 71
+2024-12-11T12:01:09.309985Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_category_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.312195Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.312619Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_customer_lookup.ibd' OS error: 71
+2024-12-11T12:01:09.313368Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_customer_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.315433Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.315916Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_download_log.ibd' OS error: 71
+2024-12-11T12:01:09.316546Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_download_log` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.318880Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.319331Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_order_addresses.ibd' OS error: 71
+2024-12-11T12:01:09.320263Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_addresses` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.323738Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.324171Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_order_coupon_lookup.ibd' OS error: 71
+2024-12-11T12:01:09.324930Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_coupon_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.327244Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.327664Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_order_operational_data.ibd' OS error: 71
+2024-12-11T12:01:09.328444Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_operational_data` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.330819Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.331375Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_order_product_lookup.ibd' OS error: 71
+2024-12-11T12:01:09.332153Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_product_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.334794Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.335219Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_order_stats.ibd' OS error: 71
+2024-12-11T12:01:09.335997Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_stats` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.338919Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.339342Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_order_tax_lookup.ibd' OS error: 71
+2024-12-11T12:01:09.340002Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_tax_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.342639Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.343060Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_orders.ibd' OS error: 71
+2024-12-11T12:01:09.343826Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_orders` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.346456Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.346891Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_orders_meta.ibd' OS error: 71
+2024-12-11T12:01:09.347846Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_orders_meta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.349959Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.350456Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_product_attributes_lookup.ibd' OS error: 71
+2024-12-11T12:01:09.351286Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_product_attributes_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.353906Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.354421Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_product_download_directories.ibd' OS error: 71
+2024-12-11T12:01:09.355155Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_product_download_directories` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.357800Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.358263Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_product_meta_lookup.ibd' OS error: 71
+2024-12-11T12:01:09.359006Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_product_meta_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.361539Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.362111Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_rate_limits.ibd' OS error: 71
+2024-12-11T12:01:09.362730Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_rate_limits` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.365246Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.365824Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_reserved_stock.ibd' OS error: 71
+2024-12-11T12:01:09.366440Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_reserved_stock` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.368702Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.369127Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_tax_rate_classes.ibd' OS error: 71
+2024-12-11T12:01:09.369842Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_tax_rate_classes` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.373285Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.373795Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_wc_webhooks.ibd' OS error: 71
+2024-12-11T12:01:09.374451Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_webhooks` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.376938Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.377358Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_api_keys.ibd' OS error: 71
+2024-12-11T12:01:09.378751Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_api_keys` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.381080Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.381609Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_attribute_taxonomies.ibd' OS error: 71
+2024-12-11T12:01:09.382344Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_attribute_taxonomies` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.384747Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.385177Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_downloadable_product_permissions.ibd' OS error: 71
+2024-12-11T12:01:09.386167Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_downloadable_product_permissions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.388664Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.389179Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_log.ibd' OS error: 71
+2024-12-11T12:01:09.389804Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_log` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.392521Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.393041Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_order_itemmeta.ibd' OS error: 71
+2024-12-11T12:01:09.393746Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_order_itemmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.396087Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.396605Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_order_items.ibd' OS error: 71
+2024-12-11T12:01:09.397413Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_order_items` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.399969Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.400559Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_payment_tokenmeta.ibd' OS error: 71
+2024-12-11T12:01:09.401581Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_payment_tokenmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.403881Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.404315Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_payment_tokens.ibd' OS error: 71
+2024-12-11T12:01:09.405346Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_payment_tokens` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.407703Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.408118Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_sessions.ibd' OS error: 71
+2024-12-11T12:01:09.408912Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_sessions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.411401Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.411857Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_shipping_zone_locations.ibd' OS error: 71
+2024-12-11T12:01:09.412629Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_shipping_zone_locations` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.414759Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.415269Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_shipping_zone_methods.ibd' OS error: 71
+2024-12-11T12:01:09.416111Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_shipping_zone_methods` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.418348Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.418923Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_shipping_zones.ibd' OS error: 71
+2024-12-11T12:01:09.419657Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_shipping_zones` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.421898Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.422476Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_tax_rate_locations.ibd' OS error: 71
+2024-12-11T12:01:09.423362Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_tax_rate_locations` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.425653Z 19 [ERROR] [MY-012611] [InnoDB] Operating system error number 2 in a file operation.
+2024-12-11T12:01:09.426193Z 19 [ERROR] [MY-012216] [InnoDB] Cannot open datafile for read-only: '.\wordpress\wp_woocommerce_tax_rates.ibd' OS error: 71
+2024-12-11T12:01:09.426970Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_tax_rates` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.472908Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_commentmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.474712Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_comments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.476124Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_e_events` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.477775Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_links` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.479224Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_options` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.480824Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_postmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.482974Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_posts` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.484638Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_termmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.486253Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_terms` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.487771Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_term_relationships` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.489393Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_2_term_taxonomy` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.584265Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_commentmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.586839Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_comments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.589145Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_e_events` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.591666Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_links` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.593670Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_options` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.595356Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_postmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.597883Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_posts` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.599494Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_termmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.601362Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_terms` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.603070Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_term_relationships` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.604933Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_term_taxonomy` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.606770Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_logs` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.608628Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_payments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.611013Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_payment_meta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.612998Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_3_wpforms_tasks_meta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.750656Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_actions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.752634Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_claims` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.754559Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_groups` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.756535Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_actionscheduler_logs` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.758492Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_blogmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.760220Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_blogs` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.762047Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_commentmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.764542Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_comments` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.766766Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_e_events` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.769523Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_links` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.771799Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_options` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.773968Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_postmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.776801Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_posts` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.778703Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_registration_log` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.781064Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_signups` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.782962Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_site` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.785236Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_sitemeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.787745Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_termmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.789636Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_terms` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.791460Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_term_relationships` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.793429Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_term_taxonomy` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.795460Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_usermeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.797907Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_users` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.800405Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_admin_notes` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.802655Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_admin_note_actions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.804719Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_category_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.806823Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_customer_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.808946Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_download_log` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.811476Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_orders` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.813572Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_orders_meta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.815809Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_addresses` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.817755Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_coupon_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.820208Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_operational_data` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.822460Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_product_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.824806Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_stats` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.827294Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_order_tax_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.829314Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_product_attributes_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.831426Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_product_download_directories` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.833759Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_product_meta_lookup` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.836277Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_rate_limits` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.838477Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_reserved_stock` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.840537Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_tax_rate_classes` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.842802Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_wc_webhooks` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.844927Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_api_keys` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.846878Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_attribute_taxonomies` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.849094Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_downloadable_product_permissions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.851268Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_log` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.853318Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_order_itemmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.855327Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_order_items` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.857235Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_payment_tokenmeta` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.859343Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_payment_tokens` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.861571Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_sessions` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.863542Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_shipping_zones` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.865902Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_shipping_zone_locations` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.868430Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_shipping_zone_methods` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.870938Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_tax_rates` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-12-11T12:01:09.872961Z 19 [Warning] [MY-012049] [InnoDB] Cannot calculate statistics for table `wordpress`.`wp_woocommerce_tax_rate_locations` because the .ibd file is missing. Please refer to http://dev.mysql.com/doc/refman/8.0/en/innodb-troubleshooting.html for how to resolve the issue.
