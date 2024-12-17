@@ -14,7 +14,7 @@
         }
 
         function aplicarDescuento($porcentaje){
-            $total=$this->precio-($porcentaje/10);
+            $total=$this->precio-($porcentaje/100);
             return $total;
         }
 
