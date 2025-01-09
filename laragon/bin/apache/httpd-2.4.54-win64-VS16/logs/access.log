@@ -9164,3 +9164,45 @@
 ::1 - - [08/Jan/2025:14:00:53 +0100] "POST /wordpress/tiendaonline/wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [08/Jan/2025:14:01:53 +0100] "POST /wordpress/tiendaonline/wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [08/Jan/2025:14:02:53 +0100] "POST /wordpress/tiendaonline/wp-admin/admin-ajax.php HTTP/1.1" 200 47
+::1 - - [09/Jan/2025:13:01:20 +0100] "GET / HTTP/1.1" 200 417
+::1 - - [09/Jan/2025:13:01:20 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [09/Jan/2025:13:01:23 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [09/Jan/2025:13:01:23 +0100] "GET /inventario/css/estilos.css HTTP/1.1" 200 300
+::1 - - [09/Jan/2025:13:01:23 +0100] "GET /inventario/css/bulma.min.css HTTP/1.1" 200 677242
+::1 - - [09/Jan/2025:13:01:40 +0100] "POST /inventario/ HTTP/1.1" 200 1134
+::1 - - [09/Jan/2025:13:02:31 +0100] "GET / HTTP/1.1" 200 417
+::1 - - [09/Jan/2025:13:02:31 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [09/Jan/2025:13:02:26 +0100] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 4600
+::1 - - [09/Jan/2025:13:02:34 +0100] "GET /inventario/ HTTP/1.1" 200 1134
+::1 - - [09/Jan/2025:13:02:40 +0100] "-" 408 -
+::1 - - [09/Jan/2025:13:02:43 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [09/Jan/2025:13:04:06 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [09/Jan/2025:13:04:07 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [09/Jan/2025:13:04:07 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3320
+::1 - - [09/Jan/2025:13:05:06 +0100] "-" 408 -
+::1 - - [09/Jan/2025:13:12:29 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3982
+::1 - - [09/Jan/2025:13:13:28 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3764
+::1 - - [09/Jan/2025:13:13:31 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:13:33 +0100] "GET /inventario/index.php?vista=user_list HTTP/1.1" 200 3722
+::1 - - [09/Jan/2025:13:13:34 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:13:36 +0100] "GET /inventario/index.php?vista=category_new HTTP/1.1" 200 4602
+::1 - - [09/Jan/2025:13:13:38 +0100] "GET /inventario/index.php?vista=product_new HTTP/1.1" 200 5866
+::1 - - [09/Jan/2025:13:13:39 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:14:15 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:14:19 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:14:24 +0100] "GET /inventario/index.php?vista=home HTTP/1.1" 200 3764
+::1 - - [09/Jan/2025:13:14:26 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:15:24 +0100] "-" 408 -
+::1 - - [09/Jan/2025:13:22:34 +0100] "GET /inventario/index.php?vista=user_list HTTP/1.1" 200 3722
+::1 - - [09/Jan/2025:13:22:43 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:22:48 +0100] "GET /inventario/index.php?vista=user_list HTTP/1.1" 200 3722
+::1 - - [09/Jan/2025:13:23:48 +0100] "-" 408 -
+::1 - - [09/Jan/2025:13:24:46 +0100] "GET /inventario/index.php?vista=user_search HTTP/1.1" 200 4550
+::1 - - [09/Jan/2025:13:25:23 +0100] "GET /inventario/index.php?vista=category_new HTTP/1.1" 200 4602
+::1 - - [09/Jan/2025:13:25:25 +0100] "GET /inventario/index.php?vista=category_list HTTP/1.1" 200 3741
+::1 - - [09/Jan/2025:13:25:26 +0100] "GET /inventario/index.php?vista=category_search HTTP/1.1" 200 4555
+::1 - - [09/Jan/2025:13:25:27 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:25:29 +0100] "GET /inventario/index.php?vista=user_search HTTP/1.1" 200 4550
+::1 - - [09/Jan/2025:13:26:23 +0100] "-" 408 -
+::1 - - [09/Jan/2025:13:31:18 +0100] "GET /inventario/index.php?vista=user_new HTTP/1.1" 200 5531
+::1 - - [09/Jan/2025:13:32:18 +0100] "-" 408 -
