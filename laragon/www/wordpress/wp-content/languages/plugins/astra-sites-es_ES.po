@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Starter Templates — Elementor, WordPress &amp; Beaver Builder Templates - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-02 15:49:33+0000\n"
+"PO-Revision-Date: 2025-01-08 20:37:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,33 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Starter Templates — Elementor, WordPress &amp; Beaver Builder Templates - Stable (latest release)\n"
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1989
+msgid "The memory limit of your site is below the recommended 256MB. While you can proceed, increasing the memory limit is advised for a seamless import experience."
+msgstr "El límite de memoria de tu sitio está por debajo de los 256 MB recomendados. Aunque puedes continuar, se recomienda aumentar el límite de memoria para que la importación se realice sin problemas."
+
+#: inc/classes/class-astra-sites.php:1987
+msgid "Insufficient Memory Limit"
+msgstr "Límite de memoria insuficiente"
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1984
+msgid "You do not have permission to activate the required plugin. You must have activate permissions to proceed with the required plugin."
+msgstr "No tienes permisos para activar el plugin requerido. Debes tener permisos de activación para proceder con el plugin requerido."
+
+#: inc/classes/class-astra-sites.php:1982
+msgid "Missing plugin activation permission"
+msgstr "Faltan permisos para activar el plugin"
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1979
+msgid "You do not have permission to install the required plugin. You must have install permissions to proceed with the required plugin."
+msgstr "No tienes permisos para instalar el plugin requerido. Debes tener permisos de instalación para proceder con el plugin requerido."
+
+#: inc/classes/class-astra-sites.php:1977
+msgid "Missing plugin installation permission"
+msgstr "Faltan permisos para instalar el plugin"
 
 #: inc/lib/starter-templates-importer/importer/st-importer.php:156
 msgid "Account is already created."
@@ -27,7 +54,7 @@ msgstr "La acción ha fallado"
 msgid "Action Completed"
 msgstr "Acción finalizada"
 
-#: inc/classes/class-astra-sites-nps-notice.php:87
+#: inc/classes/class-astra-sites-nps-notice.php:90
 msgid "We value your input. How can we improve your experience?"
 msgstr "Valoramos tu opinión. ¿Cómo podemos mejorar tu experiencia?"
 
@@ -36,19 +63,19 @@ msgstr "Valoramos tu opinión. ¿Cómo podemos mejorar tu experiencia?"
 msgid "Your current active organization is %1$s, which is on the %2$s plan. You have reached the maximum number of sites allowed to be created on %2$s plan."
 msgstr "Tu organización activa actual es %1$s, que está en el plan %2$s. Has alcanzado el número máximo de sitios que se pueden crear en el plan %2$s."
 
-#: inc/classes/class-astra-sites-nps-notice.php:82
+#: inc/classes/class-astra-sites-nps-notice.php:85
 msgid "Could you please do us a favor and give us a 5-star rating on WordPress? It would help others choose Starter Templates with confidence. Thank you!"
 msgstr "¿Podrías hacernos un gran favor y darnos una valoración de 5 estrellas en WordPress? Ayudará a otros a elegir Starter Templates con confianza. ¡Muchas gracias!"
 
-#: inc/classes/class-astra-sites-nps-notice.php:81
+#: inc/classes/class-astra-sites-nps-notice.php:84
 msgid "Thanks a lot for your feedback! 😍"
 msgstr "¡Muchas gracias por tu comentario! 😍"
 
-#: inc/classes/class-astra-sites-nps-notice.php:86
+#: inc/classes/class-astra-sites-nps-notice.php:89
 msgid "Thank you for your feedback"
 msgstr "¡Gracias por tus comentarios!"
 
-#: inc/classes/class-astra-sites-nps-notice.php:78
+#: inc/classes/class-astra-sites-nps-notice.php:81
 msgid "How likely are you to recommend #pluginname to your friends or colleagues?"
 msgstr "¿Qué probabilidades hay de que recomiendes #pluginname a tus amigos o compañeros?"
 
@@ -217,19 +244,19 @@ msgstr "Desbloquea toda la potencia"
 msgid "Please upgrade the plan for %s in order to create more sites."
 msgstr "Por favor, actualiza el plan de %s para poder crear más sitios."
 
-#: inc/classes/class-astra-sites.php:2461
+#: inc/classes/class-astra-sites.php:2496
 msgid "I want to build this website from scratch"
 msgstr "Quiero crear esta web desde cero"
 
-#: inc/classes/class-astra-sites.php:2460
+#: inc/classes/class-astra-sites.php:2495
 msgid "Let’s Get Started"
 msgstr "Empecemos"
 
-#: inc/classes/class-astra-sites.php:2458
+#: inc/classes/class-astra-sites.php:2493
 msgid "Say goodbye to the days of spending weeks designing and building your website.<br/> You can now create professional-grade websites in minutes."
 msgstr "Di adiós a los días en los que pasabas semanas diseñando y construyendo tu sitio web.<br/>Ahora puedes crear sitios web de calidad profesional en cuestión de minutos."
 
-#: inc/classes/class-astra-sites.php:2457
+#: inc/classes/class-astra-sites.php:2492
 msgid "Build Your Dream Site in Minutes With AI"
 msgstr "Construye el sitio de tus sueños en minutos con IA"
 
@@ -314,7 +341,7 @@ msgstr "URL de solicitud de WPform no válida - %s"
 
 #: classes/class-astra-sites-admin.php:116
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:144
-#: inc/lib/onboarding/assets/src/steps/site-list/index.js:411
+#: inc/lib/onboarding/assets/src/steps/site-list/index.js:417
 msgid "Get Essential Toolkit"
 msgstr "Consigue el kit de herramientas esenciales"
 
@@ -328,15 +355,15 @@ msgstr "Spectra AI"
 msgid "Design Library"
 msgstr "Biblioteca de diseños"
 
-#: inc/lib/zip-ai/classes/sidebar-configurations.php:265
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:270
 msgid "You have no credits left."
 msgstr "No te quedan créditos."
 
-#: inc/lib/zip-ai/classes/sidebar-configurations.php:264
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:269
 msgid "Invalid auth token."
 msgstr "Identificador de autenticación no válido."
 
-#: inc/lib/zip-ai/classes/sidebar-configurations.php:185
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:187
 msgid "The message array was not supplied"
 msgstr "No se ha proporcionado el array de mensajes"
 
@@ -396,8 +423,8 @@ msgstr "No se ha declarado el endpoint de Zip AI"
 #: inc/lib/gutenberg-templates/inc/api/sites.php:93
 #: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:138
 #: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:197
-#: inc/lib/nps-survey/classes/nps-survey-script.php:238
-#: inc/lib/nps-survey/classes/nps-survey-script.php:319
+#: inc/lib/nps-survey/classes/nps-survey-script.php:273
+#: inc/lib/nps-survey/classes/nps-survey-script.php:354
 #: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php:163
 #: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php:236
 #: inc/lib/zipwp-images/classes/zipwp-images-api.php:169
@@ -419,9 +446,9 @@ msgstr "Ha fallado la verificación del nonce."
 #: inc/lib/gutenberg-templates/inc/api/settings.php:92
 #: inc/lib/gutenberg-templates/inc/api/sites.php:70
 #: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:77
-#: inc/lib/nps-survey/classes/nps-survey-script.php:217
+#: inc/lib/nps-survey/classes/nps-survey-script.php:252
 #: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php:80
-#: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php:50
+#: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php:49
 #: inc/lib/zipwp-images/classes/zipwp-images-api.php:92
 msgid "Sorry, you are not allowed to do that."
 msgstr "Lo siento, no tienes permisos para hacer eso."
@@ -430,7 +457,7 @@ msgstr "Lo siento, no tienes permisos para hacer eso."
 msgid "Disable Elementor Page Builder Templates in Starter Templates"
 msgstr "Desactiva las plantillas del maquetador de páginas Elementor en las plantillas de inicio"
 
-#: inc/classes/class-astra-sites.php:2495
+#: inc/classes/class-astra-sites.php:2530
 msgid "Required WP_Filesystem Permissions to import the templates from Starter Templates are missing."
 msgstr "Faltan los permisos requeridos de WP_Filesystem para importar las plantillas de Starter Templates."
 
@@ -450,7 +477,7 @@ msgstr "Archivo vacío de flujos de CartFlows"
 #: inc/lib/gutenberg-templates/inc/importer/plugin.php:270
 #: inc/lib/gutenberg-templates/inc/importer/plugin.php:274
 #: inc/lib/gutenberg-templates/inc/importer/plugin.php:445
-#: inc/lib/zip-ai/classes/sidebar-configurations.php:250
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:255
 #: inc/lib/ai-builder/inc/assets/build/main.js:183
 #: inc/lib/ai-builder/inc/assets/src/components/api-error-model.js:39
 msgid "Something went wrong"
@@ -465,6 +492,7 @@ msgid "Something wrong"
 msgstr "Algo salió mal"
 
 #: inc/classes/class-astra-sites.php:1436
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
 msgid "Get Started"
 msgstr "Primeros pasos"
 
@@ -481,7 +509,7 @@ msgstr "ID de plantilla no válido - %d"
 
 #: inc/lib/ai-builder/inc/traits/helper.php:223
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:147
-#: inc/lib/onboarding/assets/src/steps/survey/index.js:562
+#: inc/lib/onboarding/assets/src/steps/survey/index.js:565
 msgid "Please contact the hosting service provider to help you update the permissions so that you can successfully import a complete template."
 msgstr "Por favor, contacta con el proveedor del servicio de alojamiento para que te ayude a actualizar los permisos para que puedas importar correctamente una plantilla completa."
 
@@ -547,7 +575,7 @@ msgstr "Archivo JSON no válido de WP Forms."
 
 #. translators: %s Anchor link to support URL.
 #: inc/classes/class-astra-sites.php:1727
-msgid "Please report this error %1$shere%2$s, so we can fix it."
+msgid "Please report this error%1$s here %2$s, so we can fix it."
 msgstr "Por favor, informa de este error %1$saquí%2$s para que podamos corregirlo."
 
 #: inc/includes/image-templates.php:92
@@ -618,7 +646,7 @@ msgid "There was an error connecting to the Starter Templates API."
 msgstr "Ha habido un error al conectar con la API de Starter Templates."
 
 #. translators: %s are link.
-#: inc/classes/class-astra-sites.php:2060
+#: inc/classes/class-astra-sites.php:2095
 msgid "This is a premium template available with Essential and Business Toolkits. you can purchase it from <a href=\"%s\" target=\"_blank\">here</a>."
 msgstr "Esta una plantilla premium disponible con Essential y Business Toolkits. Puedes adquirirla en <a href=\"%s\" target=\"_blank\">aquí</a>."
 
@@ -746,11 +774,11 @@ msgstr "Importar la plantilla «%s»"
 msgid "This is usually due to inconsistent file permissions."
 msgstr "Esto suele deberse a la inconsistencia de los permisos de los archivos."
 
-#: inc/classes/class-astra-sites.php:2098
+#: inc/classes/class-astra-sites.php:2133
 msgid "Block"
 msgstr "Bloque"
 
-#: inc/classes/class-astra-sites.php:2097
+#: inc/classes/class-astra-sites.php:2132
 msgid "Template"
 msgstr "Plantilla"
 
@@ -772,7 +800,7 @@ msgid "Syncing template library in the background. The process can take anywhere
 msgstr "Sincronizar la biblioteca de plantillas en segundo plano. El proceso puede tardar entre 2 y 3 minutos. Te avisaremos una vez que esté hecho."
 
 #: inc/classes/class-astra-sites.php:1646
-#: inc/classes/class-astra-sites.php:2093 inc/includes/templates.php:321
+#: inc/classes/class-astra-sites.php:2128 inc/includes/templates.php:321
 msgid "Get Access!"
 msgstr "¡Obtén acceso!"
 
@@ -878,7 +906,7 @@ msgstr "Puedes actualizar fácilmente los permisos añadiendo el siguiente códi
 msgid "Required File Permissions to import the templates from %s are missing."
 msgstr "Faltan los permisos de archivo necesarios para importar las plantillas de %s."
 
-#: inc/classes/class-astra-sites.php:2383
+#: inc/classes/class-astra-sites.php:2418
 msgid "Template library refreshed!"
 msgstr "¡Biblioteca de plantillas actualizada!"
 
@@ -886,16 +914,16 @@ msgstr "¡Biblioteca de plantillas actualizada!"
 msgid "Error: You don't have the required permissions to install plugins."
 msgstr "Error: No tienes los permisos necesarios para instalar plugins."
 
-#: inc/classes/class-astra-sites.php:2106
+#: inc/classes/class-astra-sites.php:2141
 msgid "Read More →"
 msgstr "Leer más ⟶"
 
-#: inc/classes/class-astra-sites.php:2104
+#: inc/classes/class-astra-sites.php:2139
 msgid "You can locate <strong>Starter Templates Settings</strong> under the <strong>Page Settings</strong> of the Style Tab."
 msgstr "Puedes localizar los <strong>ajustes de Starter Templates</strong> en los <strong>Ajustes de la página</strong> de la pestaña de estilo."
 
 #. translators: %s are link.
-#: inc/classes/class-astra-sites.php:2064
+#: inc/classes/class-astra-sites.php:2099
 msgid "This is a premium template available with Essential and Business Toolkits. <a href=\"%s\" target=\"_blank\">Validate Your License</a> Key to import this template."
 msgstr "Esta es una plantilla premium disponible con Essential y Business Toolkits. <a href=\"%s\" target=\"_blank\">Valida tu licencia</a> Clave para importar esta plantilla."
 
@@ -1026,7 +1054,7 @@ msgstr "Volver a las páginas"
 msgid "Filter by Color"
 msgstr "Filtrar por color"
 
-#: inc/classes/class-astra-sites.php:2099 inc/includes/templates.php:78
+#: inc/classes/class-astra-sites.php:2134 inc/includes/templates.php:78
 #: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
 msgid "Dismiss"
 msgstr "Descartar"
@@ -1055,7 +1083,7 @@ msgstr "La plantilla de página que estás a punto de importar contiene un widge
 
 #: inc/classes/class-astra-sites.php:1965
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:147
-#: inc/lib/onboarding/assets/src/steps/survey/index.js:334
+#: inc/lib/onboarding/assets/src/steps/survey/index.js:333
 msgid "This starter template requires premium plugins. As these are third party premium plugins, you'll need to purchase, install and activate them first."
 msgstr "Esta plantilla de inicio necesita plugins premium. Como son plugins premium de terceros, tendrás que comprarlos, instalarlos y activarlos."
 
@@ -1092,7 +1120,7 @@ msgstr "Lo siento, no se han encontrado resultados."
 #: inc/lib/ai-builder/inc/assets/src/components/header-credit-status.js:158
 #: inc/lib/gutenberg-templates/dist/main.js:2
 #: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
-#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:3
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1116,8 +1144,8 @@ msgstr "https://wpastra.com/"
 
 #. Plugin Name of the plugin
 #: astra-sites.php astra-sites.php:38 astra-sites.php:111
-#: inc/classes/class-astra-sites-nps-notice.php:77
-#: inc/classes/class-astra-sites.php:2455
+#: inc/classes/class-astra-sites-nps-notice.php:80
+#: inc/classes/class-astra-sites.php:2490
 #: inc/lib/onboarding/class-onboarding-loader.php:83
 #: inc/lib/ai-builder/inc/assets/build/main.js:190
 #: inc/lib/ai-builder/inc/assets/src/components/logo.js:20
@@ -1321,7 +1349,7 @@ msgstr "Plugin activado"
 msgid "Theme Activated"
 msgstr "Tema activado."
 
-#: inc/classes/class-astra-sites.php:2100
+#: inc/classes/class-astra-sites.php:2135
 msgid "Install Required Plugins"
 msgstr "Instalar los plugins obligatorios"
 
@@ -1372,7 +1400,7 @@ msgstr "Elementor"
 msgid "Warning! %1$s Import process is not complete. Don't close the window until import process complete. Do you still want to leave the window?"
 msgstr "¡Advertencia! El proceso de importación de %1$s no está completo. No cierres la ventana hasta que el proceso de importación se haya completado. ¿Aún quieres salir de la ventana?"
 
-#: inc/lib/starter-templates-importer/importer/wxr-importer/st-wxr-importer.php:833
+#: inc/lib/starter-templates-importer/importer/wxr-importer/st-wxr-importer.php:835
 msgid "Import complete!"
 msgstr "¡Importación completada!"
 
@@ -1700,6 +1728,7 @@ msgstr "¡Listo! Ver sitio"
 #: inc/lib/ai-builder/inc/assets/build/main.js:190
 #: inc/lib/ai-builder/inc/assets/src/components/improve-using-ai-modal.js:105
 #: inc/lib/gutenberg-templates/dist/main.js:2
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
 msgid "Close"
 msgstr "Cerrar"
 

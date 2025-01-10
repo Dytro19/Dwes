@@ -309,6 +309,8 @@ class Astra_WP_Editor_CSS {
 
 		if ( is_array( $body_font_size ) ) {
 			$body_font_size_desktop = ( isset( $body_font_size['desktop'] ) && '' != $body_font_size['desktop'] ) ? $body_font_size['desktop'] : 15;
+			// Convert to appropriate pixels if the unit is 'rem'.
+			$body_font_size_desktop = ! empty( $body_font_size['desktop-unit'] ) && $body_font_size['desktop-unit'] === 'rem' ? $body_font_size_desktop * 16 : $body_font_size_desktop;
 		} else {
 			$body_font_size_desktop = ( '' != $body_font_size ) ? $body_font_size : 15;
 		}
@@ -365,7 +367,8 @@ class Astra_WP_Editor_CSS {
 
 		$astra_wide_particular_selector = $astra_is_block_editor_v2_ui ? '.editor-styles-wrapper .block-editor-block-list__layout.is-root-container .block-list-appender' : '.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > p, .editor-styles-wrapper .block-editor-block-list__layout.is-root-container .block-list-appender';
 
-		$blocks_spacings = self::astra_get_block_spacings();
+		$blocks_spacings          = self::astra_get_block_spacings();
+		$color_palette_reorganize = Astra_Dynamic_CSS::astra_4_8_9_compatibility();
 
 		$desktop_top_spacing    = isset( $blocks_spacings['desktop']['top'] ) ? $blocks_spacings['desktop']['top'] : '';
 		$desktop_right_spacing  = isset( $blocks_spacings['desktop']['right'] ) ? $blocks_spacings['desktop']['right'] : '';
@@ -383,6 +386,10 @@ class Astra_WP_Editor_CSS {
 		$ast_content_width = apply_filters( 'astra_block_content_width', $astra_is_block_editor_v2_ui ? $astra_container_width : '910px' );
 		$ast_wide_width    = apply_filters( 'astra_block_wide_width', $astra_is_block_editor_v2_ui ? 'calc(' . esc_attr( $astra_container_width ) . ' + var(--wp--custom--ast-default-block-left-padding) + var(--wp--custom--ast-default-block-right-padding))' : $astra_container_width );
 		$ast_narrow_width  = astra_get_option( 'narrow-container-max-width', apply_filters( 'astra_narrow_container_width', 750 ) ) . 'px';
+		$primary_color     = $color_palette_reorganize ? 'var(--ast-global-color-4)' : 'var(--ast-global-color-5)';
+		$secondary_color   = $color_palette_reorganize ? 'var(--ast-global-color-5)' : 'var(--ast-global-color-4)';
+		$alternate_color   = $color_palette_reorganize ? 'var(--ast-global-color-6)' : 'var(--ast-global-color-7)';
+		$subtle_color      = $color_palette_reorganize ? 'var(--ast-global-color-7)' : 'var(--ast-global-color-6)';
 
 		$css = ':root, body .editor-styles-wrapper {
 			--wp--custom--ast-default-block-top-padding: ' . $desktop_top_spacing . ';
@@ -391,6 +398,10 @@ class Astra_WP_Editor_CSS {
 			--wp--custom--ast-default-block-left-padding: ' . $desktop_left_spacing . ';
 			--wp--custom--ast-content-width-size: ' . $ast_content_width . ';
 			--wp--custom--ast-wide-width-size: ' . $ast_wide_width . ';
+			--ast-global-color-primary: ' . $primary_color . ';
+			--ast-global-color-secondary: ' . $secondary_color . ';
+			--ast-global-color-alternate-background: ' . $alternate_color . ';
+			--ast-global-color-subtle-background: ' . $subtle_color . ';
 		}';
 
 		$css .= '.ast-narrow-container .editor-styles-wrapper {
@@ -455,10 +466,10 @@ class Astra_WP_Editor_CSS {
 			'.block-editor-block-list__block'  => array(
 				'color' => esc_attr( $text_color ),
 			),
-			'.has-text-color .block-editor-block-list__block' => array(
+			'.has-text-color .block-editor-block-list__block:not(.wp-block-heading)' => array(
 				'color' => 'inherit',
 			),
-			'.wp-block-cover .wp-block-cover__inner-container .block-editor-rich-text__editable.wp-block-paragraph' => array(
+			'.wp-block-cover:not(.has-text-color.has-link-color) .wp-block-cover__inner-container .block-editor-rich-text__editable.wp-block-paragraph' => array(
 				'color' => esc_attr( $text_color ),
 			),
 			// Global selection CSS.
@@ -482,7 +493,7 @@ class Astra_WP_Editor_CSS {
 			),
 			'.editor-styles-wrapper h1, .editor-styles-wrapper h2, .editor-styles-wrapper h3, .editor-styles-wrapper h4, .editor-styles-wrapper h5, .editor-styles-wrapper h6' => astra_get_font_array_css( astra_get_option( 'headings-font-family' ), astra_get_option( 'headings-font-weight' ), array(), 'headings-font-extras', $heading_base_color ),
 
-			".wp-block-cover:not([class*='background-color']) .block-editor-block-list__block" => astra_get_font_array_css( astra_get_option( 'headings-font-family' ), astra_get_option( 'headings-font-weight' ), array(), 'headings-font-extras', $heading_base_color ),
+			".wp-block-cover:not([class*='background-color']):not(.has-text-color.has-link-color):not(.wp-block-cover__inner-container .wp-block-cover ). block-editor-block-list__block" => astra_get_font_array_css( astra_get_option( 'headings-font-family' ), astra_get_option( 'headings-font-weight' ), array(), 'headings-font-extras', $heading_base_color ),
 
 			// Headings H1 - H6 typography.
 			'.editor-styles-wrapper h1'        => array(

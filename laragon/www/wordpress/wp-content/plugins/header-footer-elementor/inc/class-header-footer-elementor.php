@@ -65,7 +65,8 @@ class Header_Footer_Elementor {
 			self::$elementor_instance = Elementor\Plugin::instance();
 
 			$this->includes();
-			$this->load_textdomain();
+			
+			add_action( 'init', [ $this, 'load_textdomain' ] );
 
 			add_filter(
 				'elementor/admin-top-bar/is-active',
@@ -78,6 +79,16 @@ class Header_Footer_Elementor {
 				10,
 				2
 			);
+			
+
+			add_action( 'current_screen', function () {
+				$current_screen = get_current_screen();
+				if ( $current_screen && ( $current_screen->id === 'edit-elementor-hf' || $current_screen->id === 'elementor-hf' ) ) {
+					add_action( 'in_admin_header', function () {
+						$this->render_admin_top_bar();
+					} );
+				}
+			} );
 
 			$is_theme_supported = true;
 
@@ -142,6 +153,13 @@ class Header_Footer_Elementor {
 			);
 
 		}
+	}
+
+	private function render_admin_top_bar() {
+		?>
+		<div id="hfe-admin-top-bar-root">
+		</div>
+		<?php
 	}
 
 	/**

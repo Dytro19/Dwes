@@ -217,7 +217,6 @@ const getServerContext = namespace => {
 };
 
 ;// ./packages/interactivity/build-module/utils.js
-/* wp:polyfill */
 /**
  * External dependencies
  */
@@ -528,7 +527,6 @@ const warn = message => {
 const isPlainObject = candidate => Boolean(candidate && typeof candidate === 'object' && candidate.constructor === Object);
 
 ;// ./packages/interactivity/build-module/proxies/registry.js
-/* wp:polyfill */
 /**
  * Proxies for each object.
  */
@@ -1146,7 +1144,6 @@ const proxifyStore = (namespace, obj, isRoot = true) => {
 };
 
 ;// ./packages/interactivity/build-module/proxies/context.js
-/* wp:polyfill */
 const contextObjectToProxy = new WeakMap();
 const contextObjectToFallback = new WeakMap();
 const contextProxies = new WeakSet();
@@ -1215,6 +1212,7 @@ const proxifyContext = (current, inherited = {}) => {
 
 
 ;// ./packages/interactivity/build-module/store.js
+/* wp:polyfill */
 /**
  * Internal dependencies
  */
@@ -1406,6 +1404,7 @@ const data = parseServerData();
 populateServerData(data);
 
 ;// ./packages/interactivity/build-module/hooks.js
+/* wp:polyfill */
 // eslint-disable-next-line eslint-comments/disable-enable-pair
 /* eslint-disable react-hooks/exhaustive-deps */
 
@@ -2157,9 +2156,13 @@ const getGlobalAsyncEventDirective = type => {
     const {
       namespace
     } = entry;
-    const list = evaluate(entry);
+    const iterable = evaluate(entry);
+    if (typeof iterable?.[Symbol.iterator] !== 'function') {
+      return;
+    }
     const itemProp = isNonDefaultDirectiveSuffix(entry) ? kebabToCamelCase(entry.suffix) : 'item';
-    return list.map(item => {
+    const result = [];
+    for (const item of iterable) {
       const itemContext = proxifyContext(proxifyState(namespace, {}), inheritedValue.client[namespace]);
       const mergedContext = {
         client: {
@@ -2181,11 +2184,12 @@ const getGlobalAsyncEventDirective = type => {
       const key = eachKey ? getEvaluate({
         scope
       })(eachKey[0]) : item;
-      return (0,preact_module.h)(Provider, {
+      result.push((0,preact_module.h)(Provider, {
         value: mergedContext,
         key
-      }, element.props.content);
-    });
+      }, element.props.content));
+    }
+    return result;
   }, {
     priority: 20
   });
@@ -2198,6 +2202,7 @@ const getGlobalAsyncEventDirective = type => {
 const directivePrefix = 'wp';
 
 ;// ./packages/interactivity/build-module/vdom.js
+/* wp:polyfill */
 /**
  * External dependencies
  */

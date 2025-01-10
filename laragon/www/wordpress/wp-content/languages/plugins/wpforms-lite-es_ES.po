@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WPForms &#8211; Easy Form Builder for WordPress &#8211; Contact Forms, Payment Forms, Surveys, &amp; More - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-04 08:11:25+0000\n"
+"PO-Revision-Date: 2024-12-06 12:27:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,17 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - WPForms &#8211; Easy Form Builder for WordPress &#8211; Contact Forms, Payment Forms, Surveys, &amp; More - Stable (latest release)\n"
+
+#: src/Integrations/Gutenberg/RestApi.php:146
+msgid "This route is accessible only to administrators."
+msgstr "Esta ruta solo está accesible para administradores."
+
+#. translators: %1$d - restored templates count.
+#: src/Admin/Forms/BulkActions.php:468
+msgid "%1$d template was successfully restored."
+msgid_plural "%1$d templates were successfully restored."
+msgstr[0] "%1$d plantilla restaurada correctamente."
+msgstr[1] "%1$d plantillas restauradas correctamente."
 
 #. translators: %1$s - error code, %2$s - error message.
 #: src/Integrations/AI/API/Http/Response.php:105

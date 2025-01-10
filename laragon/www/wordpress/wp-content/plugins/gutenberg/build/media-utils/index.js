@@ -65,6 +65,7 @@ const external_wp_element_namespaceObject = window["wp"]["element"];
 ;// external ["wp","i18n"]
 const external_wp_i18n_namespaceObject = window["wp"]["i18n"];
 ;// ./packages/media-utils/build-module/components/media-upload/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -673,6 +674,7 @@ class UploadError extends Error {
 }
 
 ;// ./packages/media-utils/build-module/utils/validate-mime-type.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -715,6 +717,7 @@ function validateMimeType(file, allowedTypes) {
 }
 
 ;// ./packages/media-utils/build-module/utils/get-mime-types-array.js
+/* wp:polyfill */
 /**
  * Browsers may use unexpected mime types, and they differ from browser to browser.
  * This function computes a flexible array of mime types from the mime type structured provided by the server.
@@ -854,8 +857,11 @@ function uploadMedia({
   const validFiles = [];
   const filesSet = [];
   const setAndUpdateFiles = (index, value) => {
-    if (filesSet[index]?.url) {
-      (0,external_wp_blob_namespaceObject.revokeBlobURL)(filesSet[index].url);
+    // For client-side media processing, this is handled by the upload-media package.
+    if (!window.__experimentalMediaProcessing) {
+      if (filesSet[index]?.url) {
+        (0,external_wp_blob_namespaceObject.revokeBlobURL)(filesSet[index].url);
+      }
     }
     filesSet[index] = value;
     onFileChange?.(filesSet.filter(attachment => attachment !== null));
@@ -888,12 +894,15 @@ function uploadMedia({
     }
     validFiles.push(mediaFile);
 
-    // Set temporary URL to create placeholder media file, this is replaced
-    // with final file from media gallery when upload is `done` below.
-    filesSet.push({
-      url: (0,external_wp_blob_namespaceObject.createBlobURL)(mediaFile)
-    });
-    onFileChange?.(filesSet);
+    // For client-side media processing, this is handled by the upload-media package.
+    if (!window.__experimentalMediaProcessing) {
+      // Set temporary URL to create placeholder media file, this is replaced
+      // with final file from media gallery when upload is `done` below.
+      filesSet.push({
+        url: (0,external_wp_blob_namespaceObject.createBlobURL)(mediaFile)
+      });
+      onFileChange?.(filesSet);
+    }
   }
   validFiles.map(async (file, index) => {
     try {

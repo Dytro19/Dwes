@@ -44,7 +44,7 @@ class HT_CTC_Admin_Main_Page {
             <?php settings_errors(); ?>
 
             <!-- full row -->
-            <div class="row">
+            <div class="row" style="display:flex; flex-wrap:wrap;" >
 
                 <div class="col s12 m12 xl8 options">
                     <form action="options.php" method="post" class="">
@@ -160,22 +160,6 @@ class HT_CTC_Admin_Main_Page {
             } else if ( '2' == $_GET['number-field'] ) {
                 $intl = '2';
             }
-        }
-
-        // styles added in rtl pages..
-        if ( function_exists('is_rtl') && is_rtl() ) {
-            ?>
-            <style id="ctc-rtl">
-            [dir="rtl"] .row_number,
-            [dir="rtl"] .description {
-                text-align: right;
-            }
-            [dir="rtl"] .iti__dropdown-content {
-                left: 0;
-                /* right: auto !important; */
-            }
-            </style>
-            <?php
         }
 
         ?>
@@ -389,7 +373,7 @@ class HT_CTC_Admin_Main_Page {
         <p class="description" style="margin: 0 0 20px 0;"><a target="_blank" href="https://holithemes.com/plugins/click-to-chat/url-structure/"><?php _e( 'URL Structure', 'click-to-chat-for-whatsapp' ); ?></a> </p>
 
         <p class="description ht_ctc_subtitle" style="margin-bottom: 11px;"><?php _e( 'Desktop', 'click-to-chat-for-whatsapp' ); ?>:</p>
-        <div class="row">
+        <div class="row url_structure_row ctc_side_by_side">
             <div class="col s6">
                 <p><?php _e( 'Open links in', 'click-to-chat-for-whatsapp' ); ?></p>
             </div>
@@ -403,7 +387,7 @@ class HT_CTC_Admin_Main_Page {
             </div>
         </div>
 
-        <div class="row">
+        <div class="row url_structure_row ctc_side_by_side">
             <div class="col s6">
                 <p><?php _e( 'Desktop', 'click-to-chat-for-whatsapp' ); ?>: <?php _e( 'URL Structure', 'click-to-chat-for-whatsapp' ); ?></p>
             </div>
@@ -435,7 +419,7 @@ class HT_CTC_Admin_Main_Page {
         <?php do_action('ht_ctc_ah_url_structure_desktop'); ?>
         
         <p class="description ht_ctc_subtitle" style="margin-bottom: 11px;"><?php _e( 'Mobile', 'click-to-chat-for-whatsapp' ); ?>:</p>
-        <div class="row">
+        <div class="row url_structure_row ctc_side_by_side">
             <div class="col s6">
                 <p><?php _e( 'Mobile', 'click-to-chat-for-whatsapp' ); ?>: <?php _e( 'URL Structure', 'click-to-chat-for-whatsapp' ); ?></p>
             </div>

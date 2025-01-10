@@ -152,8 +152,6 @@ const external_wp_data_namespaceObject = window["wp"]["data"];
 ;// external ["wp","deprecated"]
 const external_wp_deprecated_namespaceObject = window["wp"]["deprecated"];
 var external_wp_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_wp_deprecated_namespaceObject);
-;// external ["wp","editor"]
-const external_wp_editor_namespaceObject = window["wp"]["editor"];
 ;// external ["wp","element"]
 const external_wp_element_namespaceObject = window["wp"]["element"];
 ;// external ["wp","blockLibrary"]
@@ -887,6 +885,7 @@ const ComplementaryAreaHeader = ({
 /* harmony default export */ const complementary_area_header = (ComplementaryAreaHeader);
 
 ;// ./packages/interface/build-module/components/action-item/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -896,7 +895,7 @@ const ComplementaryAreaHeader = ({
 const noop = () => {};
 function ActionItemSlot({
   name,
-  as: Component = external_wp_components_namespaceObject.ButtonGroup,
+  as: Component = external_wp_components_namespaceObject.MenuGroup,
   fillProps = {},
   bubblesVirtually,
   ...props
@@ -1596,7 +1595,7 @@ function transformWidgetToBlock(widget) {
  * Converts a block to a widget entity record.
  *
  * @param {Object}  block         The block.
- * @param {Object?} relatedWidget A related widget entity record from the API (optional).
+ * @param {?Object} relatedWidget A related widget entity record from the API (optional).
  * @return {Object} the widget object (converted from block).
  */
 function transformBlockToWidget(block, relatedWidget = {}) {
@@ -1714,6 +1713,7 @@ const createStubPost = (id, blocks) => ({
 const constants_STORE_NAME = 'core/edit-widgets';
 
 ;// ./packages/edit-widgets/build-module/store/actions.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -2151,6 +2151,7 @@ const getWidgets = () => async ({
 };
 
 ;// ./packages/edit-widgets/build-module/store/selectors.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -3135,7 +3136,8 @@ function WidgetAreasBlockEditorProvider({
       templateLock: 'all',
       __experimentalSetIsInserterOpened: setIsInserterOpened,
       pageOnFront,
-      pageForPosts
+      pageForPosts,
+      editorTool: 'edit'
     };
   }, [hasUploadPermissions, blockEditorSettings, isFixedToolbarActive, isLargeViewport, keepCaretInsideBlock, reusableBlocks, setIsInserterOpened, pageOnFront, pageForPosts]);
   const widgetAreaId = use_last_selected_widget_area();
@@ -3817,6 +3819,7 @@ const textFormattingShortcuts = [{
 }];
 
 ;// ./packages/edit-widgets/build-module/components/keyboard-shortcut-help-modal/shortcut.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -3913,6 +3916,7 @@ function DynamicShortcut({
 /* harmony default export */ const dynamic_shortcut = (DynamicShortcut);
 
 ;// ./packages/edit-widgets/build-module/components/keyboard-shortcut-help-modal/index.js
+/* wp:polyfill */
 /**
  * External dependencies
  */
@@ -4212,6 +4216,7 @@ function Header() {
 /* harmony default export */ const header = (Header);
 
 ;// ./packages/edit-widgets/build-module/components/notices/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -4304,21 +4309,6 @@ function WidgetAreasBlockEditorContent({
   });
 }
 
-;// ./packages/icons/build-module/library/close.js
-/**
- * WordPress dependencies
- */
-
-
-const close_close = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 24 24",
-  children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
-    d: "m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"
-  })
-});
-/* harmony default export */ const library_close = (close_close);
-
 ;// ./packages/edit-widgets/build-module/hooks/use-widget-library-insertion-point.js
 /**
  * WordPress dependencies
@@ -4384,9 +4374,6 @@ const useWidgetLibraryInsertionPoint = () => {
 
 
 
-
-
-
 /**
  * Internal dependencies
  */
@@ -4405,34 +4392,26 @@ function InserterSidebar() {
   const closeInserter = (0,external_wp_element_namespaceObject.useCallback)(() => {
     return setIsInserterOpened(false);
   }, [setIsInserterOpened]);
-  const TagName = !isMobileViewport ? external_wp_components_namespaceObject.VisuallyHidden : 'div';
   const [inserterDialogRef, inserterDialogProps] = (0,external_wp_compose_namespaceObject.__experimentalUseDialog)({
     onClose: closeInserter,
     focusOnMount: true
   });
   const libraryRef = (0,external_wp_element_namespaceObject.useRef)();
-  return /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)("div", {
+  return /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("div", {
     ref: inserterDialogRef,
     ...inserterDialogProps,
     className: "edit-widgets-layout__inserter-panel",
-    children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(TagName, {
-      className: "edit-widgets-layout__inserter-panel-header",
-      children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_components_namespaceObject.Button, {
-        __next40pxDefaultSize: true,
-        icon: library_close,
-        onClick: closeInserter,
-        label: (0,external_wp_i18n_namespaceObject.__)('Close Block Inserter')
-      })
-    }), /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("div", {
+    children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("div", {
       className: "edit-widgets-layout__inserter-panel-content",
       children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_blockEditor_namespaceObject.__experimentalLibrary, {
         showInserterHelpPanel: true,
         shouldFocusBlock: isMobileViewport,
         rootClientId: rootClientId,
         __experimentalInsertionIndex: insertionIndex,
-        ref: libraryRef
+        ref: libraryRef,
+        onClose: closeInserter
       })
-    })]
+    })
   });
 }
 
@@ -4688,6 +4667,7 @@ function UnsavedChangesWarning() {
 }
 
 ;// ./packages/edit-widgets/build-module/components/welcome-guide/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
@@ -4760,7 +4740,7 @@ function WelcomeGuide() {
       content: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(external_ReactJSXRuntime_namespaceObject.Fragment, {
         children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("h1", {
           className: "edit-widgets-welcome-guide__heading",
-          children: (0,external_wp_i18n_namespaceObject.__)('Make each block your own')
+          children: (0,external_wp_i18n_namespaceObject.__)('Customize each block')
         }), /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("p", {
           className: "edit-widgets-welcome-guide__text",
           children: (0,external_wp_i18n_namespaceObject.__)('Each block comes with its own set of controls for changing things like color, width, and alignment. These will show and hide automatically when you have a block selected.')
@@ -4774,7 +4754,7 @@ function WelcomeGuide() {
       content: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(external_ReactJSXRuntime_namespaceObject.Fragment, {
         children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("h1", {
           className: "edit-widgets-welcome-guide__heading",
-          children: (0,external_wp_i18n_namespaceObject.__)('Get to know the block library')
+          children: (0,external_wp_i18n_namespaceObject.__)('Explore all blocks')
         }), /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("p", {
           className: "edit-widgets-welcome-guide__text",
           children: (0,external_wp_element_namespaceObject.createInterpolateElement)((0,external_wp_i18n_namespaceObject.__)('All of the blocks available to you live in the block library. You’ll find it wherever you see the <InserterIconImage /> icon.'), {
@@ -4794,7 +4774,7 @@ function WelcomeGuide() {
       content: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(external_ReactJSXRuntime_namespaceObject.Fragment, {
         children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("h1", {
           className: "edit-widgets-welcome-guide__heading",
-          children: (0,external_wp_i18n_namespaceObject.__)('Learn how to use the block editor')
+          children: (0,external_wp_i18n_namespaceObject.__)('Learn more')
         }), /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)("p", {
           className: "edit-widgets-welcome-guide__text",
           children: (0,external_wp_element_namespaceObject.createInterpolateElement)((0,external_wp_i18n_namespaceObject.__)("New to the block editor? Want to learn more about using it? <a>Here's a detailed guide.</a>"), {
@@ -4875,10 +4855,10 @@ function Layout({
 /* harmony default export */ const layout = (Layout);
 
 ;// ./packages/edit-widgets/build-module/index.js
+/* wp:polyfill */
 /**
  * WordPress dependencies
  */
-
 
 
 
@@ -4897,11 +4877,7 @@ function Layout({
 
 
 
-
 const disabledBlocks = ['core/more', 'core/freeform', 'core/template-part', ...(ALLOW_REUSABLE_BLOCKS ? [] : ['core/block'])];
-const {
-  registerCoreBlockBindingsSources
-} = unlock(external_wp_editor_namespaceObject.privateApis);
 
 /**
  * Initializes the block editor in the widgets screen.
@@ -4923,7 +4899,6 @@ function initializeEditor(id, settings) {
   });
   (0,external_wp_data_namespaceObject.dispatch)(external_wp_blocks_namespaceObject.store).reapplyBlockTypeFilters();
   (0,external_wp_blockLibrary_namespaceObject.registerCoreBlocks)(coreBlocks);
-  registerCoreBlockBindingsSources();
   (0,external_wp_widgets_namespaceObject.registerLegacyWidgetBlock)();
   if (true) {
     (0,external_wp_blockLibrary_namespaceObject.__experimentalRegisterExperimentalCoreBlocks)({
