@@ -23,7 +23,7 @@
 
         $pagina=limpiar_cadena($pagina);
         $url="index.php?vista=user_list&page=";
-        $registros=15;
+        $registros=5;
         $busqueda="";
 
         # Paginador usuario #

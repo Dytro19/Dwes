@@ -1202,3 +1202,16 @@ information that should help you find out what is causing the crash.
 2025-01-15T13:18:14.786994Z 298 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
 2025-01-15T13:18:14.787991Z 0 [System] [MY-013105] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
 2025-01-15T13:18:15.173947Z 0 [System] [MY-010910] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
+2025-01-16T11:50:37.027768Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2025-01-16T11:50:37.028504Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-01-16T11:50:37.028544Z 0 [System] [MY-010116] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 3232
+2025-01-16T11:50:37.120201Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-01-16T11:50:38.723880Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-01-16T11:50:39.263462Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2025-01-16T11:50:39.337780Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-01-16T11:50:39.338211Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-01-16T11:50:39.387698Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2025-01-16T11:50:39.387798Z 0 [System] [MY-010931] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2025-01-16T13:15:33.527006Z 28 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
+2025-01-16T13:15:33.528434Z 0 [System] [MY-013105] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
+2025-01-16T13:15:34.608504Z 0 [System] [MY-010910] [Server] C:\Repositorios\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
