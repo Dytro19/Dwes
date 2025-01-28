@@ -771,5 +771,7 @@ Apache server interrupted...
 [Tue Jan 28 08:36:01.895561 2025] [mpm_winnt:notice] [pid 7092:tid 356] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
 [Tue Jan 28 08:36:01.895561 2025] [core:notice] [pid 7092:tid 356] AH00094: Command line: 'C:\\Repositorios\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
 [Tue Jan 28 08:36:01.901613 2025] [mpm_winnt:notice] [pid 7092:tid 356] AH00418: Parent: Created child process 3800
-[Tue Jan 28 08:36:02.505236 2025] [mpm_winnt:notice] [pid 3800:tid 352] AH00354: Child: Starting 64 worker threads.
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 3800:tid 352] AH00354: Child: Starting 64 worker threads.
 [Tue Jan 28 08:58:01.235923 2025] [core:error] [pid 3800:tid 1252] (20024)The given path is misformatted or contained invalid characters: [client ::1:50056] AH00127: Cannot map POST /plugin%3Awindow%7Cclose HTTP/1.1 to file, referer: http://tauri.localhost/
+[Tue Jan 28 09:05:21.930182 2025] [mpm_winnt:notice] [pid 7092:tid 356] AH00422: Parent: Received shutdown signal -- Shutting down the server.
