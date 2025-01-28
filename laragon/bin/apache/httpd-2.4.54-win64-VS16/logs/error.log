@@ -766,3 +766,10 @@ Apache server interrupted...
 [Mon Jan 27 13:44:30.082539 2025] [core:error] [pid 19172:tid 1176] (20024)The given path is misformatted or contained invalid characters: [client ::1:58238] AH00127: Cannot map POST /plugin%3Awindow%7Cclose HTTP/1.1 to file, referer: http://tauri.localhost/
 [Mon Jan 27 14:16:29.159681 2025] [mpm_winnt:notice] [pid 10756:tid 324] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Mon Jan 27 14:16:31.178770 2025] [mpm_winnt:notice] [pid 19172:tid 348] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 08:36:01.127667 2025] [core:warn] [pid 7092:tid 356] AH00098: pid file C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 28 08:36:01.895561 2025] [mpm_winnt:notice] [pid 7092:tid 356] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 configured -- resuming normal operations
+[Tue Jan 28 08:36:01.895561 2025] [mpm_winnt:notice] [pid 7092:tid 356] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Jan 28 08:36:01.895561 2025] [core:notice] [pid 7092:tid 356] AH00094: Command line: 'C:\\Repositorios\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
+[Tue Jan 28 08:36:01.901613 2025] [mpm_winnt:notice] [pid 7092:tid 356] AH00418: Parent: Created child process 3800
+[Tue Jan 28 08:36:02.505236 2025] [mpm_winnt:notice] [pid 3800:tid 352] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 08:58:01.235923 2025] [core:error] [pid 3800:tid 1252] (20024)The given path is misformatted or contained invalid characters: [client ::1:50056] AH00127: Cannot map POST /plugin%3Awindow%7Cclose HTTP/1.1 to file, referer: http://tauri.localhost/
