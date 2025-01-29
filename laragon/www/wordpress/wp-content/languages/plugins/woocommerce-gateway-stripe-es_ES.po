@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-13 06:44:19+0000\n"
+"PO-Revision-Date: 2025-01-10 08:49:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,52 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release)\n"
+
+#. translators: customer email
+#: includes/payment-tokens/class-wc-stripe-link-payment-token.php:42
+#: includes/payment-tokens/class-wc-stripe-payment-tokens.php:406
+msgid "Stripe Link (%s)"
+msgstr "Enlace de Stripe (%s)"
+
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:87
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:102
+msgid "Reference:"
+msgstr "Referencia:"
+
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:84
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:98
+msgid "Entity:"
+msgstr "Entidad:"
+
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:81
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:94
+msgid "Amount:"
+msgstr "Cantidad:"
+
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:79
+#: includes/payment-methods/class-wc-stripe-upe-payment-method-multibanco.php:91
+msgid "MULTIBANCO ORDER INFORMATION"
+msgstr "INFORMACIÓN DE PEDIDO EN MULTIBANCO"
+
+#: includes/class-wc-stripe-webhook-state.php:187
+msgid "Multiple webhooks exist for this site. Please remove the duplicate webhooks or re-configure the webhooks"
+msgstr "Existen múltiples webhooks para este sitio. Por favor, elimina los webhooks duplicados o reconfigura los webhooks."
+
+#: includes/class-wc-stripe-webhook-state.php:174
+msgid "The webhook secret is not set in the store. Please configure the webhooks"
+msgstr "El webhook secreto no está configurado en la tienda. Por favor, configura los webhooks"
+
+#: includes/class-wc-stripe-webhook-handler.php:596
+msgid "This payment has expired."
+msgstr "Este pago ha caducado."
+
+#: includes/class-wc-stripe-webhook-handler.php:393
+msgid "A dispute was created for this order."
+msgstr "Se ha creado una disputa para este pedido."
+
+#: includes/class-wc-stripe-order-handler.php:112
+msgid "This order is no longer editable because the charge has been authorized for this amount."
+msgstr "Este pedido ya no se puede editar porque el cargo se ha autorizado por este importe."
 
 #: includes/compat/trait-wc-stripe-subscriptions.php:723
 msgid "Invalid payment method ID. A valid \"Stripe Payment Method ID\" must begin with \"src_\", \"pm_\", or \"card_\"."

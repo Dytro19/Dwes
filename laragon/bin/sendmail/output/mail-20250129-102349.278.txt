@@ -1,0 +1,25 @@
+To: gomezuriarte.alvaro@jgvaldemora.org
+Subject: Nuevo sitio en My red: Escuela FP
+Date: Wed, 29 Jan 2025 09:23:49 +0000
+From: My red <brunoperez.ivan@jgvaldemora.org>
+Message-ID: <i4ig8SDcdToYE1R0rPt3FxI22UvrKjpCI8oeyR2u4g@localhost>
+X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hola escuela-fp,
+
+Tu nuevo sitio My red se ha creado correctamente:
+http://localhost/wordpress/escuela-fp/
+
+Puedes acceder a la cuenta del administrador con la siguiente información:
+
+Nombre de usuario: escuela-fp
+Contraseña: SlXbabXz31P6
+Accede aquí: http://localhost/wordpress/escuela-fp/wp-login.php
+
+Esperamos que disfrutes de tu nuevo sitio. ¡Gracias!
+
+--El equipo @ My red
+

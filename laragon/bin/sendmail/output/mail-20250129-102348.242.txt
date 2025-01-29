@@ -1,0 +1,15 @@
+To: brunoperez.ivan@jgvaldemora.org
+Subject: [My red] Nuevo sitio creado
+Date: Wed, 29 Jan 2025 09:23:48 +0000
+From: Administrador del sitio <brunoperez.ivan@jgvaldemora.org>
+Message-ID: <cUuDcx68Aba9dsddaMsI0zyn59m3o47nVksIjCgc@localhost>
+X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Nuevo sitio creado por escuela-fp
+
+Dirección: http://localhost/wordpress/escuela-fp
+Nombre: Escuela FP
+
