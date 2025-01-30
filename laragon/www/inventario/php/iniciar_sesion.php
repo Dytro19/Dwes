@@ -39,7 +39,7 @@
 
 
     $check_user=conexion();
-    $check_user=$check_user->query("SELECT * FROM usuarios WHERE usuario_usuario='$usuario'");
+    $check_user=$check_user->query("SELECT * FROM usuario WHERE usuario_usuario='$usuario'");
     if($check_user->rowCount()==1){
 
     	$check_user=$check_user->fetch();

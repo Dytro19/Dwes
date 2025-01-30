@@ -1,32 +1,27 @@
 <?php
+	
+	# Conexion a la base de datos #
+	function conexion(){
+		$pdo = new PDO('mysql:host=localhost;dbname=inventario', 'root', '');
+		return $pdo;
+	}
 
-    //conexion a la base de datos
-    function conexion(){
-        $pdo = new PDO("mysql:host=localhost;dbname=inventario","root","");
-        return $pdo;
-    }
 
-    function verificar_datos($filtro, $cadena){
-        if(preg_match("/^".$filtro."$/",$cadena)){
-            return false;
+	# Verificar datos #
+	function verificar_datos($filtro,$cadena){
+		if(preg_match("/^".$filtro."$/", $cadena)){
+			return false;
         }else{
             return true;
         }
-    }
-/*
-    $nombre="Alvaro7";
+	}
 
-    if (verificar_datos("[a-zA-Z]{6,10}", $nombre)){
-        echo "los datos no coinciden";
-    }
-*/
 
-    // limpiar cadednas de texto
-
-    function limpiar_cadena($cadena){
-        $cadena=trim($cadena);
-        $cadena=stripslashes($cadena);
-        $cadena=str_ireplace("<script>", "", $cadena);
+	# Limpiar cadenas de texto #
+	function limpiar_cadena($cadena){
+		$cadena=trim($cadena);
+		$cadena=stripslashes($cadena);
+		$cadena=str_ireplace("<script>", "", $cadena);
 		$cadena=str_ireplace("</script>", "", $cadena);
 		$cadena=str_ireplace("<script src", "", $cadena);
 		$cadena=str_ireplace("<script type=", "", $cadena);
@@ -51,9 +46,10 @@
 		$cadena=trim($cadena);
 		$cadena=stripslashes($cadena);
 		return $cadena;
-    }
+	}
 
-	// Funcion renombrar fotos 
+
+	# Funcion renombrar fotos #
 	function renombrar_fotos($nombre){
 		$nombre=str_ireplace(" ", "_", $nombre);
 		$nombre=str_ireplace("/", "_", $nombre);
@@ -67,7 +63,7 @@
 	}
 
 
-	// Funcion paginador de tablas 
+	# Funcion paginador de tablas #
 	function paginador_tablas($pagina,$Npaginas,$url,$botones){
 		$tabla='<nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">';
 
