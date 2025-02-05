@@ -19081,3 +19081,16 @@
 127.0.0.1 - - [05/Feb/2025:10:14:31 +0100] "POST /wordpress/escuela-fp/wp-cron.php?doing_wp_cron=1738746871.4995419979095458984375 HTTP/1.1" 200 -
 ::1 - - [05/Feb/2025:10:16:31 +0100] "POST /wordpress/escuela-fp/wp-admin/admin-ajax.php HTTP/1.1" 200 77
 127.0.0.1 - - [05/Feb/2025:10:16:32 +0100] "POST /wordpress/escuela-fp/wp-cron.php?doing_wp_cron=1738746992.4588880538940429687500 HTTP/1.1" 200 -
+::1 - - [05/Feb/2025:13:33:54 +0100] "GET / HTTP/1.1" 200 417
+::1 - - [05/Feb/2025:13:33:54 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+127.0.0.1 - - [05/Feb/2025:13:34:48 +0100] "POST /wordpress/wp-cron.php?doing_wp_cron=1738758888.2962090969085693359375 HTTP/1.1" 200 -
+::1 - - [05/Feb/2025:13:33:56 +0100] "GET /wordpress/ HTTP/1.1" 200 205270
+::1 - - [05/Feb/2025:13:34:54 +0100] "-" 408 -
+127.0.0.1 - - [05/Feb/2025:13:34:49 +0100] "POST /wordpress/wp-admin/admin-ajax.php?action=wp_1_wc_privacy_cleanup&nonce=8bbd992db0 HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025:13:34:58 +0100] "POST /wordpress/wp-cron.php HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025:13:34:58 +0100] "\x16\x03\x01\x02" 400 226
+127.0.0.1 - - [05/Feb/2025:13:34:58 +0100] "\x16\x03\x01\x02" 400 226
+127.0.0.1 - - [05/Feb/2025:13:34:58 +0100] "GET /wordpress/ HTTP/1.1" 200 134949
+127.0.0.1 - - [05/Feb/2025:13:35:00 +0100] "GET /wordpress/ HTTP/1.1" 200 134949
+127.0.0.1 - - [05/Feb/2025:13:35:01 +0100] "GET /wordpress/ HTTP/1.1" 200 134949
+127.0.0.1 - - [05/Feb/2025:13:34:46 +0100] "POST /wordpress/wp-cron.php?doing_wp_cron=1738758886.6974349021911621093750 HTTP/1.1" 200 -
