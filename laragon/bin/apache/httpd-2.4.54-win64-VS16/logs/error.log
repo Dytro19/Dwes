@@ -994,3 +994,21 @@ Apache server interrupted...
 [Fri Jan 31 09:07:21.455086 2025] [core:error] [pid 13060:tid 1188] (20024)The given path is misformatted or contained invalid characters: [client ::1:50948] AH00127: Cannot map GET /%22https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/testimonial2-free-img.jpg/%22 HTTP/1.1 to file, referer: http://localhost/wordpress/escuela-fp/wp-admin/post.php?post=25066&action=edit
 [Fri Jan 31 10:16:49.244144 2025] [mpm_winnt:notice] [pid 836:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Jan 31 10:16:51.259446 2025] [mpm_winnt:notice] [pid 13060:tid 364] AH00364: Child: All worker threads have exited.
+[Wed Feb 05 08:36:48.861241 2025] [core:warn] [pid 4836:tid 384] AH00098: pid file C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 05 08:36:49.356891 2025] [mpm_winnt:notice] [pid 4836:tid 384] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 configured -- resuming normal operations
+[Wed Feb 05 08:36:49.356891 2025] [mpm_winnt:notice] [pid 4836:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Feb 05 08:36:49.356891 2025] [core:notice] [pid 4836:tid 384] AH00094: Command line: 'C:\\Repositorios\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
+[Wed Feb 05 08:36:49.360533 2025] [mpm_winnt:notice] [pid 4836:tid 384] AH00418: Parent: Created child process 6120
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 6120:tid 344] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 05 08:37:01.252245 2025] [mpm_winnt:notice] [pid 4836:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 05 08:37:03.262785 2025] [mpm_winnt:notice] [pid 6120:tid 344] AH00364: Child: All worker threads have exited.
+[Wed Feb 05 08:37:10.723725 2025] [core:warn] [pid 3500:tid 372] AH00098: pid file C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 05 08:37:10.756912 2025] [mpm_winnt:notice] [pid 3500:tid 372] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 configured -- resuming normal operations
+[Wed Feb 05 08:37:10.756912 2025] [mpm_winnt:notice] [pid 3500:tid 372] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Feb 05 08:37:10.756912 2025] [core:notice] [pid 3500:tid 372] AH00094: Command line: 'C:\\Repositorios\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
+[Wed Feb 05 08:37:10.761340 2025] [mpm_winnt:notice] [pid 3500:tid 372] AH00418: Parent: Created child process 7176
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 7176:tid 348] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 05 10:17:56.550332 2025] [mpm_winnt:notice] [pid 3500:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 05 10:17:58.563431 2025] [mpm_winnt:notice] [pid 7176:tid 348] AH00364: Child: All worker threads have exited.
