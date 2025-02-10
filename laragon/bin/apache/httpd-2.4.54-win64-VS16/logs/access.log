@@ -23056,3 +23056,12 @@
 ::1 - - [07/Feb/2025:10:13:06 +0100] "GET /wordpress/escuela-fp/wp-json/elementor/v1/checklist/user-progress HTTP/1.1" 200 532
 ::1 - - [07/Feb/2025:10:13:08 +0100] "POST /wordpress/escuela-fp/wp-admin/admin-ajax.php HTTP/1.1" 200 602
 ::1 - - [07/Feb/2025:10:13:10 +0100] "GET /wordpress/escuela-fp/wp-json/elementor/v1/checklist/user-progress HTTP/1.1" 200 532
+::1 - - [10/Feb/2025:12:44:32 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 4579
+::1 - - [10/Feb/2025:12:44:40 +0100] "GET /phpmyadmin/js/messages.php?l=es&v=5.2.1 HTTP/1.1" 200 8971
+::1 - - [10/Feb/2025:12:44:43 +0100] "POST /phpmyadmin/index.php?route=/ HTTP/1.1" 302 20
+::1 - - [10/Feb/2025:12:44:44 +0100] "GET /phpmyadmin/index.php?route=/&route=%2F HTTP/1.1" 200 17986
+::1 - - [10/Feb/2025:12:44:46 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1548
+::1 - - [10/Feb/2025:12:44:46 +0100] "POST /phpmyadmin/index.php?route=/config/get HTTP/1.1" 200 1641
+::1 - - [10/Feb/2025:12:44:46 +0100] "POST /phpmyadmin/index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 2351
+::1 - - [10/Feb/2025:12:44:46 +0100] "POST /phpmyadmin/index.php?route=/version-check HTTP/1.1" 200 64
+::1 - - [10/Feb/2025:12:44:46 +0100] "POST /phpmyadmin/index.php?route=/config/set HTTP/1.1" 200 1540
