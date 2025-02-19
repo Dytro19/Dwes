@@ -3,8 +3,6 @@
     require_once "main.php";
 
     /*== Almacenando datos ==*/
-    $nombre=limpiar_cadena($_POST['usuario_nombre']);
-    $apellido=limpiar_cadena($_POST['usuario_apellido']);
 
     $usuario=limpiar_cadena($_POST['usuario_usuario']);
     $email=limpiar_cadena($_POST['usuario_email']);
@@ -26,26 +24,7 @@
 
 
     /*== Verificando integridad de los datos ==*/
-    if(verificar_datos("[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}",$nombre)){
-        echo '
-            <div class="notification is-danger is-light">
-                <strong>¡Ocurrio un error inesperado!</strong><br>
-                El NOMBRE no coincide con el formato solicitado
-            </div>
-        ';
-        exit();
-    }
-
-    if(verificar_datos("[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}",$apellido)){
-        echo '
-            <div class="notification is-danger is-light">
-                <strong>¡Ocurrio un error inesperado!</strong><br>
-                El APELLIDO no coincide con el formato solicitado
-            </div>
-        ';
-        exit();
-    }
-
+   
     if(verificar_datos("[a-zA-Z0-9]{4,20}",$usuario)){
         echo '
             <div class="notification is-danger is-light">
@@ -125,11 +104,9 @@
 
     /*== Guardando datos ==*/
     $guardar_usuario=conexion();
-    $guardar_usuario=$guardar_usuario->prepare("INSERT INTO usuario(usuario_nombre,usuario_apellido,usuario_usuario,usuario_clave,usuario_email) VALUES(:nombre,:apellido,:usuario,:clave,:email)");
+    $guardar_usuario=$guardar_usuario->prepare("INSERT INTO usuario(usuario_usuario,usuario_clave,usuario_email) VALUES(:usuario,:clave,:email)");
 
     $marcadores=[
-        ":nombre"=>$nombre,
-        ":apellido"=>$apellido,
         ":usuario"=>$usuario,
         ":clave"=>$clave,
         ":email"=>$email

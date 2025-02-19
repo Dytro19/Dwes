@@ -92,9 +92,6 @@
 
 
     /*== Almacenando datos del usuario ==*/
-    $nombre=limpiar_cadena($_POST['usuario_nombre']);
-    $apellido=limpiar_cadena($_POST['usuario_apellido']);
-
     $usuario=limpiar_cadena($_POST['usuario_usuario']);
     $email=limpiar_cadena($_POST['usuario_email']);
 
@@ -103,7 +100,7 @@
 
 
     /*== Verificando campos obligatorios del usuario ==*/
-    if($nombre=="" || $apellido=="" || $usuario==""){
+    if($usuario==""){
         echo '
             <div class="notification is-danger is-light">
                 <strong>¡Ocurrio un error inesperado!</strong><br>
@@ -115,26 +112,7 @@
 
 
     /*== Verificando integridad de los datos (usuario) ==*/
-    if(verificar_datos("[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}",$nombre)){
-        echo '
-            <div class="notification is-danger is-light">
-                <strong>¡Ocurrio un error inesperado!</strong><br>
-                El NOMBRE no coincide con el formato solicitado
-            </div>
-        ';
-        exit();
-    }
-
-    if(verificar_datos("[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}",$apellido)){
-        echo '
-            <div class="notification is-danger is-light">
-                <strong>¡Ocurrio un error inesperado!</strong><br>
-                El APELLIDO no coincide con el formato solicitado
-            </div>
-        ';
-        exit();
-    }
-
+   
     if(verificar_datos("[a-zA-Z0-9]{4,20}",$usuario)){
         echo '
             <div class="notification is-danger is-light">
@@ -220,11 +198,9 @@
 
     /*== Actualizar datos ==*/
     $actualizar_usuario=conexion();
-    $actualizar_usuario=$actualizar_usuario->prepare("UPDATE usuario SET usuario_nombre=:nombre,usuario_apellido=:apellido,usuario_usuario=:usuario,usuario_clave=:clave,usuario_email=:email WHERE usuario_id=:id");
+    $actualizar_usuario=$actualizar_usuario->prepare("UPDATE usuario SET usuario_usuario=:usuario,usuario_clave=:clave,usuario_email=:email WHERE usuario_id=:id");
 
     $marcadores=[
-        ":nombre"=>$nombre,
-        ":apellido"=>$apellido,
         ":usuario"=>$usuario,
         ":clave"=>$clave,
         ":email"=>$email,

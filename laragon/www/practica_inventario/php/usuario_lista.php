@@ -4,13 +4,13 @@
 
 	if(isset($busqueda) && $busqueda!=""){
 
-		$consulta_datos="SELECT * FROM usuario WHERE ((usuario_id!='".$_SESSION['id']."') AND (usuario_nombre LIKE '%$busqueda%' OR usuario_apellido LIKE '%$busqueda%' OR usuario_usuario LIKE '%$busqueda%' OR usuario_email LIKE '%$busqueda%')) ORDER BY usuario_nombre ASC LIMIT $inicio,$registros";
+		$consulta_datos="SELECT * FROM usuario WHERE ((usuario_id!='".$_SESSION['id']."') AND (usuario_usuario LIKE '%$busqueda%' OR usuario_email LIKE '%$busqueda%')) ORDER BY usuario_usuario ASC LIMIT $inicio,$registros";
 
-		$consulta_total="SELECT COUNT(usuario_id) FROM usuario WHERE ((usuario_id!='".$_SESSION['id']."') AND (usuario_nombre LIKE '%$busqueda%' OR usuario_apellido LIKE '%$busqueda%' OR usuario_usuario LIKE '%$busqueda%' OR usuario_email LIKE '%$busqueda%'))";
+		$consulta_total="SELECT COUNT(usuario_id) FROM usuario WHERE ((usuario_id!='".$_SESSION['id']."') AND (usuario_usuario LIKE '%$busqueda%' OR usuario_email LIKE '%$busqueda%'))";
 
 	}else{
 
-		$consulta_datos="SELECT * FROM usuario WHERE usuario_id!='".$_SESSION['id']."' ORDER BY usuario_nombre ASC LIMIT $inicio,$registros";
+		$consulta_datos="SELECT * FROM usuario WHERE usuario_id!='".$_SESSION['id']."' ORDER BY usuario_usuario ASC LIMIT $inicio,$registros";
 
 		$consulta_total="SELECT COUNT(usuario_id) FROM usuario WHERE usuario_id!='".$_SESSION['id']."'";
 		
@@ -32,8 +32,6 @@
             <thead>
                 <tr class="has-text-centered">
                 	<th>#</th>
-                    <th>Nombres</th>
-                    <th>Apellidos</th>
                     <th>Usuario</th>
                     <th>Email</th>
                     <th colspan="2">Opciones</th>
@@ -49,8 +47,6 @@
 			$tabla.='
 				<tr class="has-text-centered" >
 					<td>'.$contador.'</td>
-                    <td>'.$rows['usuario_nombre'].'</td>
-                    <td>'.$rows['usuario_apellido'].'</td>
                     <td>'.$rows['usuario_usuario'].'</td>
                     <td>'.$rows['usuario_email'].'</td>
                     <td>

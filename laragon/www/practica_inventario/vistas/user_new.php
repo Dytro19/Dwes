@@ -7,20 +7,7 @@
 	<div class="form-rest mb-6 mt-6"></div>
 
 	<form action="./php/usuario_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
-		<div class="columns">
-		  	<div class="column">
-		    	<div class="control">
-					<label>Nombres</label>
-				  	<input class="input" type="text" name="usuario_nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
-				</div>
-		  	</div>
-		  	<div class="column">
-		    	<div class="control">
-					<label>Apellidos</label>
-				  	<input class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
-				</div>
-		  	</div>
-		</div>
+		
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
