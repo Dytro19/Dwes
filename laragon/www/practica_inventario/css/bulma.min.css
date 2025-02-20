@@ -321,6 +321,7 @@
   }
   html {
     box-sizing: border-box;
+    background-color: darkgray !important;
   }
   *,
   ::after,
@@ -388,7 +389,6 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    background-color: #b0b0b0;
   }
   a {
     color: #3273dc;
@@ -5232,7 +5232,7 @@
   .navbar.is-white .navbar-brand .navbar-link:hover,
   .navbar.is-white .navbar-brand > a.navbar-item.is-active,
   .navbar.is-white .navbar-brand > a.navbar-item:hover {
-    background-color: #f2f2f2;
+    background-color: darkgray !important;
     color: #0a0a0a;
   }
   .navbar.is-white .navbar-brand .navbar-link::after {
@@ -5253,7 +5253,7 @@
     .navbar.is-white .navbar-start .navbar-link:hover,
     .navbar.is-white .navbar-start > a.navbar-item.is-active,
     .navbar.is-white .navbar-start > a.navbar-item:hover {
-      background-color: #f2f2f2;
+      background-color: darkgray !important;
       color: #0a0a0a;
     }
     .navbar.is-white .navbar-end .navbar-link::after,
@@ -5282,7 +5282,7 @@
   .navbar.is-black .navbar-brand .navbar-link:hover,
   .navbar.is-black .navbar-brand > a.navbar-item.is-active,
   .navbar.is-black .navbar-brand > a.navbar-item:hover {
-    background-color: #000;
+    background-color: darkgray !important;
     color: #fff;
   }
   .navbar.is-black .navbar-brand .navbar-link::after {
@@ -5303,7 +5303,7 @@
     .navbar.is-black .navbar-start .navbar-link:hover,
     .navbar.is-black .navbar-start > a.navbar-item.is-active,
     .navbar.is-black .navbar-start > a.navbar-item:hover {
-      background-color: #000;
+      background-color: darkgray !important;
       color: #fff;
     }
     .navbar.is-black .navbar-end .navbar-link::after,
@@ -5332,7 +5332,7 @@
   .navbar.is-light .navbar-brand .navbar-link:hover,
   .navbar.is-light .navbar-brand > a.navbar-item.is-active,
   .navbar.is-light .navbar-brand > a.navbar-item:hover {
-    background-color: #e8e8e8;
+    background-color: darkgray !important;
     color: #363636;
   }
   .navbar.is-light .navbar-brand .navbar-link::after {
@@ -5755,6 +5755,7 @@
   }
   .navbar-brand,
   .navbar-tabs {
+    background-color: darkgray !important;
     align-items: stretch;
     display: flex;
     flex-shrink: 0;
@@ -5816,6 +5817,7 @@
     transform: translateY(-5px) rotate(-45deg);
   }
   .navbar-menu {
+    background-color: darkgray !important;
     display: none;
   }
   .navbar-item,
@@ -5915,7 +5917,7 @@
       display: none;
     }
     .navbar-menu {
-      background-color: #fff;
+      background-color: darkgray !important;
       box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
       padding: 0.5rem 0;
     }
