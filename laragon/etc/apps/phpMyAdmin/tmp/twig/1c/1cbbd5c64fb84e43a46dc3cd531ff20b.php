@@ -489,6 +489,6 @@ echo _gettext("Edit partitioning");
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/display_partitions.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\table\\structure\\display_partitions.twig");
+        return new Source("", "table/structure/display_partitions.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\table\\structure\\display_partitions.twig");
     }
 }

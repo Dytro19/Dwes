@@ -88,6 +88,6 @@ echo _gettext("Create");
 
     public function getSourceContext()
     {
-        return new Source("", "database/create_table.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\database\\create_table.twig");
+        return new Source("", "database/create_table.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\database\\create_table.twig");
     }
 }

@@ -1093,6 +1093,6 @@ echo _gettext("Export");
 
     public function getSourceContext()
     {
-        return new Source("", "export.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\export.twig");
+        return new Source("", "export.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\export.twig");
     }
 }

@@ -282,6 +282,6 @@ echo _gettext("Input transformation options");
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/table_fields_definitions.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\columns_definitions\\table_fields_definitions.twig");
+        return new Source("", "columns_definitions/table_fields_definitions.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\columns_definitions\\table_fields_definitions.twig");
     }
 }

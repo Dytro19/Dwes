@@ -177,6 +177,6 @@ echo _gettext("Close");
 
     public function getSourceContext()
     {
-        return new Source("", "table/insert/actions_panel.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\table\\insert\\actions_panel.twig");
+        return new Source("", "table/insert/actions_panel.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\table\\insert\\actions_panel.twig");
     }
 }

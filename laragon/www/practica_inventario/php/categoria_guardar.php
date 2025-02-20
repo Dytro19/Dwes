@@ -3,7 +3,6 @@
 
     /*== Almacenando datos ==*/
     $nombre=limpiar_cadena($_POST['categoria_nombre']);
-    $ubicacion=limpiar_cadena($_POST['categoria_ubicacion']);
 
 
     /*== Verificando campos obligatorios ==*/
@@ -29,18 +28,6 @@
         exit();
     }
 
-    if($ubicacion!=""){
-    	if(verificar_datos("[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}",$ubicacion)){
-	        echo '
-	            <div class="notification is-danger is-light">
-	                <strong>¡Ocurrio un error inesperado!</strong><br>
-	                La UBICACION no coincide con el formato solicitado
-	            </div>
-	        ';
-	        exit();
-	    }
-    }
-
 
     /*== Verificando nombre ==*/
     $check_nombre=conexion();
@@ -59,11 +46,10 @@
 
     /*== Guardando datos ==*/
     $guardar_categoria=conexion();
-    $guardar_categoria=$guardar_categoria->prepare("INSERT INTO categoria(categoria_nombre,categoria_ubicacion) VALUES(:nombre,:ubicacion)");
+    $guardar_categoria=$guardar_categoria->prepare("INSERT INTO categoria(categoria_nombre) VALUES(:nombre)");
 
     $marcadores=[
-        ":nombre"=>$nombre,
-        ":ubicacion"=>$ubicacion
+        ":nombre"=>$nombre
     ];
 
     $guardar_categoria->execute($marcadores);

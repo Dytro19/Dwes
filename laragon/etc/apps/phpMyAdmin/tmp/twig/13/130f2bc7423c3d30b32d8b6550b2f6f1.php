@@ -353,6 +353,6 @@ echo _gettext("Log in");
 
     public function getSourceContext()
     {
-        return new Source("", "login/form.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\login\\form.twig");
+        return new Source("", "login/form.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\login\\form.twig");
     }
 }

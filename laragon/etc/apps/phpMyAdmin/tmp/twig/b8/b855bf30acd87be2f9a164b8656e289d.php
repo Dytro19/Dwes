@@ -227,6 +227,6 @@ echo _gettext("Continue");
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/check_all_tables.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\database\\structure\\check_all_tables.twig");
+        return new Source("", "database/structure/check_all_tables.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\database\\structure\\check_all_tables.twig");
     }
 }

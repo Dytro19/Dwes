@@ -804,6 +804,6 @@ echo _gettext("None");
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_attributes.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\columns_definitions\\column_attributes.twig");
+        return new Source("", "columns_definitions/column_attributes.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\columns_definitions\\column_attributes.twig");
     }
 }

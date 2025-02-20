@@ -39,10 +39,10 @@
                 <a class="navbar-link">Regletas</a>
 
                 <div class="navbar-dropdown">
-                    <a href="index.php?vista=product_new" class="navbar-item">Nuevo</a>
-                    <a href="index.php?vista=product_list" class="navbar-item">Lista</a>
-                    <a href="index.php?vista=product_category" class="navbar-item">Por categoría</a>
-                    <a href="index.php?vista=product_search" class="navbar-item">Buscar</a>
+                    <a href="index.php?vista=power_strip_new" class="navbar-item">Nuevo</a>
+                    <a href="index.php?vista=power_strip_list" class="navbar-item">Lista</a>
+                    <a href="index.php?vista=power_strip_category" class="navbar-item">Por categoría</a>
+                    <a href="index.php?vista=power_strip_search" class="navbar-item">Buscar</a>
                 </div>
             </div>
 

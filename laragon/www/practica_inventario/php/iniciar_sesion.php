@@ -47,8 +47,6 @@
     	if($check_user['usuario_usuario']==$usuario && password_verify($clave, $check_user['usuario_clave'])){
 
     		$_SESSION['id']=$check_user['usuario_id'];
-    		$_SESSION['nombre']=$check_user['usuario_nombre'];
-    		$_SESSION['apellido']=$check_user['usuario_apellido'];
     		$_SESSION['usuario']=$check_user['usuario_usuario'];
 
     		if(headers_sent()){

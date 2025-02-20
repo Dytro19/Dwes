@@ -197,6 +197,6 @@ echo _gettext("Export the data of all tables.");
 
     public function getSourceContext()
     {
-        return new Source("", "database/export/index.twig", "C:\\Repositorios\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\database\\export\\index.twig");
+        return new Source("", "database/export/index.twig", "E:\\Repositorio\\Dwes\\laragon\\etc\\apps\\phpMyAdmin\\templates\\database\\export\\index.twig");
     }
 }

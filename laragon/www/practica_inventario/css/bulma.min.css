@@ -36,8 +36,7 @@
     -ms-user-select: none;
     user-select: none;
   }
-  .navbar-link::after,
-  .select:not(.is-multiple):not(.is-loading)::after {
+  .navbar-link::after{
     border: 3px solid transparent;
     border-radius: 2px;
     border-right: 0;
@@ -1775,13 +1774,13 @@
     color: #f5f5f5;
   }
   .button.is-primary {
-    background-color: #00d1b2;
+    background-color: #ff00e6;
     border-color: transparent;
     color: #fff;
   }
   .button.is-primary.is-hovered,
   .button.is-primary:hover {
-    background-color: #00c4a7;
+    background-color: #c600b2;
     border-color: transparent;
     color: #fff;
   }
@@ -1858,13 +1857,13 @@
     color: #fff;
   }
   .button.is-link {
-    background-color: #3273dc;
+    background-color: #ff0000;
     border-color: transparent;
     color: #fff;
   }
   .button.is-link.is-hovered,
   .button.is-link:hover {
-    background-color: #276cda;
+    background-color: #af0000;
     border-color: transparent;
     color: #fff;
   }
@@ -1941,13 +1940,13 @@
     color: #fff;
   }
   .button.is-info {
-    background-color: #209cee;
+    background-color: #ff0000;
     border-color: transparent;
     color: #fff;
   }
   .button.is-info.is-hovered,
   .button.is-info:hover {
-    background-color: #1496ed;
+    background-color: #af0000;
     border-color: transparent;
     color: #fff;
   }
@@ -2848,11 +2847,6 @@
   }
   .select:not(.is-multiple) {
     height: 2.25em;
-  }
-  .select:not(.is-multiple):not(.is-loading)::after {
-    border-color: #3273dc;
-    right: 1.125em;
-    z-index: 4;
   }
   .select.is-rounded select {
     border-radius: 290486px;
@@ -5841,8 +5835,8 @@
   .navbar-link:hover,
   a.navbar-item.is-active,
   a.navbar-item:hover {
-    background-color: #fafafa;
-    color: #3273dc;
+    background-color: #999999;
+    color: #af0000;
   }
   .navbar-item {
     display: block;
@@ -5884,7 +5878,7 @@
     padding-right: 2.5em;
   }
   .navbar-link::after {
-    border-color: #3273dc;
+    border-color: #af0000;
     margin-top: -0.375em;
     right: 1.125em;
   }
