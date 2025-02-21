@@ -1155,9 +1155,12 @@ Apache server interrupted...
 025] [mpm_winnt:notice] [pid 18360:tid 348] AH00354: Child: Starting 64 worker threads.
 [Thu Feb 20 14:06:21.846334 2025] [mpm_winnt:notice] [pid 9464:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Thu Feb 20 14:06:23.864067 2025] [mpm_winnt:notice] [pid 18360:tid 348] AH00364: Child: All worker threads have exited.
-[Thu Feb 20 16:22:54.108172 2025] [core:warn] [pid 12660:tid 352] AH00098: pid file E:/Repositorio/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
-[Thu Feb 20 16:22:55.156716 2025] [mpm_winnt:notice] [pid 12660:tid 352] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 configured -- resuming normal operations
-[Thu Feb 20 16:22:55.156716 2025] [mpm_winnt:notice] [pid 12660:tid 352] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
-[Thu Feb 20 16:22:55.156716 2025] [core:notice] [pid 12660:tid 352] AH00094: Command line: 'E:\\Repositorio\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d E:/Repositorio/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
-[Thu Feb 20 16:22:55.160502 2025] [mpm_winnt:notice] [pid 12660:tid 352] AH00418: Parent: Created child process 12340
-[Thu Feb 20 16:22:55.563604 2025] [mpm_winnt:notice] [pid 12340:tid 348] AH00354: Child: Starting 64 worker threads.
+[Fri Feb 21 08:41:20.363497 2025] [core:warn] [pid 10412:tid 188] AH00098: pid file C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Feb 21 08:41:21.172512 2025] [mpm_winnt:notice] [pid 10412:tid 188] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 configured -- resuming normal operations
+[Fri Feb 21 08:41:21.172512 2025] [mpm_winnt:notice] [pid 10412:tid 188] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Feb 21 08:41:21.172512 2025] [core:notice] [pid 10412:tid 188] AH00094: Command line: 'C:\\Repositorios\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d C:/Repositorios/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
+[Fri Feb 21 08:41:21.176272 2025] [mpm_winnt:notice] [pid 10412:tid 188] AH00418: Parent: Created child process 12240
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 12240:tid 348] AH00354: Child: Starting 64 worker threads.
+[Fri Feb 21 12:25:34.801347 2025] [mpm_winnt:notice] [pid 10412:tid 188] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Feb 21 12:25:36.823347 2025] [mpm_winnt:notice] [pid 12240:tid 348] AH00364: Child: All worker threads have exited.
