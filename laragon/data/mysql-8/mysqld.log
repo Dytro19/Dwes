@@ -1575,3 +1575,18 @@ information that should help you find out what is causing the crash.
 2025-02-21T15:16:46.087978Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
 2025-02-21T15:16:46.622770Z 0 [System] [MY-010931] [Server] E:\Repositorio\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
 2025-02-21T15:16:46.622896Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2025-02-21T15:39:47.322484Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2025-02-21T15:39:47.322522Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-02-21T15:39:47.322550Z 0 [System] [MY-010116] [Server] E:\Repositorio\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 12724
+2025-02-21T15:39:47.422966Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-02-21T15:39:51.945245Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-02-21T15:39:52.519660Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2025-02-21T15:39:52.522453Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2025-02-21T15:39:52.735908Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: E:\Repositorio\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2025-02-21T15:39:52.819145Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-02-21T15:39:52.819578Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-02-21T15:39:52.874817Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2025-02-21T15:39:52.874894Z 0 [System] [MY-010931] [Server] E:\Repositorio\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2025-02-21T18:35:49.005192Z 59 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
+2025-02-21T18:35:49.005821Z 0 [System] [MY-013105] [Server] E:\Repositorio\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
+2025-02-21T18:35:49.528924Z 0 [System] [MY-010910] [Server] E:\Repositorio\Dwes\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.

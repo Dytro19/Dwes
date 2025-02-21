@@ -119,6 +119,8 @@ if ( ! class_exists( 'Astra_Sites' ) ) :
 		 * @since  1.0.0
 		 */
 		private function __construct() {
+			add_action( 'wp_php_error_message', array( $this, 'memory_error' ), 10, 2 );
+			
 			if ( ! class_exists( 'XMLReader' ) ) {
 				add_action( 'admin_notices', array( $this, 'xml_reader_notice' ) );
 				add_filter( 'ai_builder_load_library', '__return_false' );
@@ -173,6 +175,9 @@ if ( ! class_exists( 'Astra_Sites' ) ) :
 			add_filter( 'ast_block_templates_authorization_url_param', array( $this, 'add_auth_url_param' ) );
 			add_action( 'admin_head', array( $this, 'add_custom_admin_css' ) );
 			add_filter( 'zip_ai_modules', array( $this, 'enable_zip_ai_copilot' ), 20, 1 );
+			add_action( 'astra_sites_after_plugin_activation', array( $this, 'plugin_activation_utm_event' ), 10, 2 );
+			add_filter( 'plugins_api_args', array( $this, 'raise_memory_for_plugins_install' ), 1, 1 );
+			add_filter( 'bsf_core_stats', array( $this, 'add_astra_sites_analytics_data' ), 10, 1 );
 		}
 
 		/**
@@ -248,6 +253,85 @@ if ( ! class_exists( 'Astra_Sites' ) ) :
 			}
 
 			return $data;
+		}
+
+		/**
+		 * Plugin product activation utm event.
+		 * 
+		 * @param string $plugin_init plugin init file.
+		 * @param mixed  $data activation data.
+		 * @return void
+		 */
+		public function plugin_activation_utm_event( $plugin_init, $data = array() ) {
+			if ( ! isset( $data['plugin_slug'] ) || '' === $data['plugin_slug'] ) {
+				return;
+			}
+			if ( is_callable( '\BSF_UTM_Analytics\Inc\Utils::update_referer' ) ) {
+				// If the plugin is found and the update_referer function is callable, update the referer with the corresponding product slug.
+				\BSF_UTM_Analytics\Inc\Utils::update_referer( 'astra-sites', $data['plugin_slug'] );
+			}
+		}
+
+		/**
+		 * Handle memory error share customized error message
+		 *
+		 * @since 4.4.12
+		 *
+		 * @param string   $message error message.
+		 * @param WP_ERROR $error error object.
+		 * @return mixed
+		 */
+		public function memory_error( $message, $error ) {
+			if (
+				strpos( $message, 'critical error' ) !== false &&
+				strpos( $error['message'], 'memory size' ) !== false &&
+				get_option( 'astra_sites_import_started' ) == 'yes'
+			) {
+				header( 'Content-type: application/json' );
+				return wp_json_encode(
+					array(
+						'data' => array(
+							'message' => __( 'An error occurred due to insufficient memory. Please increase the memory limit on the server to resolve this issue', 'astra-sites' ),
+						),
+					)
+				);
+			}
+			return $message;
+		}
+
+		/**
+		 * Raise memory limit for plugins install
+		 *
+		 * @since 4.4.12
+		 *
+		 * @param array $args plugin array.
+		 * @return array 
+		 */
+		public function raise_memory_for_plugins_install( $args ) {
+			if ( 'yes' === get_option( 'astra_sites_import_started' ) ) {
+				wp_raise_memory_limit( 'admin' );
+			}
+			return $args;
+		}
+
+
+		/**
+		 * Add astra sites analytics data.
+		 *
+		 * @param array $stats stats array.
+		 * @return array
+		 */
+		public function add_astra_sites_analytics_data( $stats ) {
+			$stats['plugin_data']['astra_sites'] = array(
+				'version'        => defined( 'ASTRA_PRO_SITES_NAME' ) ? 'premium' : 'free',
+				'site_language'  => get_locale(),
+				'page_builder'   => Astra_Sites_Page::get_instance()->get_setting( 'page_builder' ),
+				'boolean_values' => array(
+					'import_complete' => 'yes' === get_option( 'astra_sites_import_complete' ),
+				),
+			);
+
+			return $stats;
 		}
 
 		/**
@@ -2246,6 +2330,7 @@ if ( ! class_exists( 'Astra_Sites' ) ) :
 			require_once ASTRA_SITES_DIR . 'inc/lib/class-astra-sites-zip-ai.php';
 			require_once ASTRA_SITES_DIR . 'inc/lib/class-astra-sites-zipwp-images.php';
 			require_once ASTRA_SITES_DIR . 'inc/lib/class-astra-sites-nps-survey.php';
+			require_once ASTRA_SITES_DIR . 'inc/lib/class-astra-sites-utm-analytics.php';
 		}
 
 		/**

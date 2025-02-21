@@ -1170,3 +1170,14 @@ Apache server interrupted...
 [Fri Feb 21 16:16:44.610123 2025] [core:notice] [pid 3472:tid 388] AH00094: Command line: 'E:\\Repositorio\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d E:/Repositorio/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
 [Fri Feb 21 16:16:44.613369 2025] [mpm_winnt:notice] [pid 3472:tid 388] AH00418: Parent: Created child process 14228
 [Fri Feb 21 16:16:44.981619 2025] [mpm_winnt:notice] [pid 14228:tid 376] AH00354: Child: Starting 64 worker threads.
+[Fri Feb 21 16:39:46.850397 2025] [core:warn] [pid 6024:tid 368] AH00098: pid file E:/Repositorio/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Feb 21 16:39:49.301241 2025] [mpm_winnt:notice] [pid 6024:tid 368] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 configured -- resuming normal operations
+[Fri Feb 21 16:39:49.301241 2025] [mpm_winnt:notice] [pid 6024:tid 368] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Feb 21 16:39:49.301241 2025] [core:notice] [pid 6024:tid 368] AH00094: Command line: 'E:\\Repositorio\\Dwes\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin\\httpd -d E:/Repositorio/Dwes/laragon/bin/apache/httpd-2.4.54-win64-VS16'
+[Fri Feb 21 16:39:49.304327 2025] [mpm_winnt:notice] [pid 6024:tid 368] AH00418: Parent: Created child process 7456
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 7456:tid 348] AH00354: Child: Starting 64 worker threads.
+[Fri Feb 21 16:45:15.542514 2025] [access_compat:error] [pid 7456:tid 1204] [client ::1:50159] AH01797: client denied by server configuration: E:/Repositorio/Dwes/laragon/www/wordpress/wp-content/uploads/woocommerce_uploads/
+[Fri Feb 21 16:46:25.935282 2025] [access_compat:error] [pid 7456:tid 1156] [client ::1:50301] AH01797: client denied by server configuration: E:/Repositorio/Dwes/laragon/www/wordpress/wp-content/uploads/sites/5/woocommerce_uploads/
+[Fri Feb 21 19:35:50.502686 2025] [mpm_winnt:notice] [pid 6024:tid 368] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Feb 21 19:35:52.521758 2025] [mpm_winnt:notice] [pid 7456:tid 348] AH00364: Child: All worker threads have exited.
